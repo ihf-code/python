@@ -13,10 +13,11 @@ print(fruits)
 # A4 - Remove "Apples" from the list and print the list
 del fruits[0]
 
-# A5 - Print out the current length of the list 
+# A5 - Print out the current length of the list
 print(len(fruits))
 
-# A6 - Order the list alphabetically and print the list
+# A6 - Order the list alphabetically
 fruits.sort()
-print(fruits)
 
+# A7 - print the final list
+print(fruits)

@@ -1,5 +1,5 @@
 # [fit] IHF: Code
-## Python — Session 3
+## Python — Session 6
 
 ---
 
