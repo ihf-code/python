@@ -1,18 +1,82 @@
 # [fit] IHF: Code
-## Python — Session 5
-
+## [fit]Python — Session 5 — Lesson
+### Live at 2pm
 ---
 
 # Review
 
 ---
 
+# If
+
+```python
+age = int(input("How old are you? "))
+if age >= 18:
+    print("You can vote!")
+```
+
+---
+
+# If / Else
+
+```python
+age = int(input("How old are you? "))
+if age >= 18:
+    print("You can vote!")
+else:
+    print("Try voting next time")
+```
+
+---
+
+# If / Else / Elif
+
+```python
+name = "Bob"
+if name == "Alice":
+    print("Hello Alice")
+elif name == "Bob":
+    print("Hello Bob")
+else:
+    print("You must be Charlie")
+```
+
+---
+
+# List
+```python
+names = ["Alice", "Bob", "Charlie"]
+
+days = ["Mon", "Tue", "Wed", "Thurs", "Fri", "Sat", "Sun"]
+
+# Can be spread out over multiple lines
+colours_of_rainbow = [
+    "Red",
+    "Orange",
+    "Yellow",
+    "Green",
+    "Blue",
+    "Indigo",
+    "Violet"
+]
+```
+---
+
+# List
+```python
+days = ["Mon", "Tue", "Wed", "Thurs", "Fri", "Sat", "Sun"]
+
+print(days)
+# ["Mon", "Tue", "Wed", "Thurs", "Fri", "Sat", "Sun"]
+
+print(days[1]) # Tue
+```
+---
+
 # List
 
 ```python
 names = ["Alice", "Bob", "Charlie"]
-
-print(names[1]) # Bob
 
 names.append("Dave") # ["Alice", "Bob", "Charlie", "Dave"]
 
@@ -44,6 +108,55 @@ for person in names:
 
 ---
 
+# For Loops
+
+```python
+# Create variables to store our numbers and counts
+numbers = [1, 10, 13 , 15, 765, 32, 65, 23, 56, 101]
+even_count = 0
+odd_count = 0
+
+# Loop through all our numbers
+for i in numbers:
+    # Check to see if the number is odd/even
+    if i % 2 == 0:
+        even_count = even_count + 1
+    else:
+        # This is short hand for the line above
+        odd_count += 1
+
+print("Even: " + str(even_count))
+print("Odd: " + str(odd_count))
+```
+
+---
+
+# For Loops
+
+```python
+for letter in "supercalifragilisticexpialidocious":
+    print(letter.upper())
+```
+
+---
+
+# For Loops
+
+```python
+# All vowels in lowercase
+vowels = ["a", "e", "i", "o", "u"]
+
+# Make the word lowercase and then loop through each letter
+for letter in "supeRcaliFragiListiCexPiaLidOcIous".lower():
+    # Check to see if the lowercase letter matches a vowel
+    if letter in vowels:
+        print(letter.upper())
+    else:
+        print(letter.lower())
+```
+
+---
+
 # Ranges
 
 [.code-highlight: 1-2]
@@ -61,6 +174,7 @@ range(2000, 2020, 4)
 ```
 
 ---
+
 # For Loops
 
 ```python
@@ -71,6 +185,27 @@ for olympic_years in range(1896, 2020, 4):
 # 2008
 # 2012
 # 2016
+```
+
+---
+
+# For Loops
+
+```python
+# Do something 3 times
+for x in range(3):
+    print(input("What is your name? "))
+```
+
+---
+
+# For Loops
+
+```python
+times_to_ask = int(input("How many times should I ask? "))
+
+for x in range(times_to_ask):
+    print(input("What is your name? "))
 ```
 
 ---
@@ -113,10 +248,11 @@ from <module> import <function>
 import random
 
 # Random float from 0.0 to 1.0
-print random.random()
+print(random.random())
 
 # Gets a random number between 1 and 10
 number = random.randint(1, 10)
+print(number)
 ```
 
 ---
@@ -175,6 +311,65 @@ while times_in_loop <= 10:
 
 ---
 
+# While Loops
+
+```python
+x = 1
+while x <= 100:
+    print(x)
+    times_in_loop = times_in_loop + 1
+
+# ...
+# 98
+# 99
+# 100
+```
+
+---
+
+# While Vs For Loop
+
+```python
+x = 1
+while x <= 100:
+    print(x)
+    times_in_loop = times_in_loop + 1
+
+for y in range(1, 101):
+    print(y)
+```
+
+---
+
+# Shorthand Arithmetic
+
+---
+
+# Shorthand Arithmetic
+
+```python
+number = 3
+number += 5 # 8
+number -= 2 # 6
+number *= 4 # 24
+number /= 2 # 12
+number **= 2 # 144
+```
+
+---
+
+# While Loops
+
+```python
+times_in_loop = 0
+while times_in_loop <= 10:
+    print("Hello")
+    # times_in_loop = times_in_loop + 1
+    times_in_loop += 1
+```
+
+---
+
 # Infinite Loops
 
 ---
@@ -189,6 +384,19 @@ while True:
 
 ---
 
+# Infinite Loops
+
+```python
+times_in_loop = 0
+
+# An error here causes this to run for ever
+while times_in_loop >= 0:
+    print("Hello")
+    times_in_loop += 1
+```
+
+---
+
 # Break Statements
 
 ---
@@ -199,6 +407,20 @@ while True:
 while True:
     print("Hello")
     break
+```
+
+---
+
+# Break Statements
+
+```python
+times_in_loop = 0
+
+while times_in_loop >= 0:
+    print("Hello")
+    times_in_loop += 1
+    if times_in_loop > 100:
+        break
 ```
 
 ---
