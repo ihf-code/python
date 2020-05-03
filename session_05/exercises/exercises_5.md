@@ -10,8 +10,10 @@
 7. Print a multiplication table for the number 18 up to 15. E.g.
     1 x 15 = 15
     2 x 15 = 30
-8. Rewrite question B2 from session 4 using a while loop.
+8. Rewrite question B2 from session 4 using a while loop
     Print the numbers 1 to 100 (including the number 100)
-9. Rewrite question B8 from session 3 using a while loop.
+9. Rewrite question B8 from session 3 using a while loop
     Create a list of 5 numbers. Write a for loop which appends the square of each number to the new list
-10. Rock, Paper, Scissors - Create a rock, paper, scissors game which is run against computer. If either the computer or the user, gets 3 points, the game will end. Add some instructions about the game before it starts.
+10. Ask the user to enter the names of people who entered a prize draw. Select a random winner and print their name
+11. Create a rock, paper, scissors game which is run against computer. This is a game where you select either rock/paper/scissors and you compare it to your opponents choice. Rock beats scissors, paper beats rock, scissors beats paper. If both choose the same, then you play again
+    - Expand this so that its best of 3 games
