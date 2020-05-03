@@ -341,6 +341,19 @@ for y in range(1, 101):
 
 ---
 
+# While Loops
+
+```python
+age = -1
+
+# Keep asking for their age until they enter a sensible value
+while age < 0 or age > 130:
+    age = int(input("How old are you? "))
+
+print("You are: " + str(age))
+```
+---
+
 # Shorthand Arithmetic
 
 ---
@@ -420,6 +433,31 @@ while times_in_loop >= 0:
     print("Hello")
     times_in_loop += 1
     if times_in_loop > 100:
+        break
+```
+
+---
+
+# Break Statements
+
+```python
+# Only loops once as we break out
+for x in range(1, 101):
+    print("Hello")
+    break
+```
+
+---
+
+# Break Statements
+
+```python
+times_to_loop = int(input("How many times should I loop? "))
+
+for x in range(times_to_loop):
+    print("Hello")
+    # x starts at 0, so to break after 5 loops we do this
+    if x >= 4:
         break
 ```
 
