@@ -248,11 +248,37 @@ from <module> import <function>
 import random
 
 # Random float from 0.0 to 1.0
-print(random.random())
+print(random.random()) # 0.38469447
 
 # Gets a random number between 1 and 10
 number = random.randint(1, 10)
-print(number)
+print(number) # 7
+```
+
+---
+
+# Random Module
+
+```python
+import random
+
+students = ["Alice", "Bob", "Charlie", "David", "Eve"]
+
+# Remember that index start at 0 and end at one less than the number of items
+index = random.randint(0, len(students) - 1)
+print(students[index])
+```
+
+---
+
+# Random Module
+
+```python
+import random
+
+students = ["Alice", "Bob", "Charlie", "David", "Eve"]
+
+print(random.choice(students))
 ```
 
 ---
