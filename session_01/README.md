@@ -1,6 +1,6 @@
 # Session 1
 
-In this lesson we cover:
+In this session we cover:
 - An overview of the course
 - Background on programming and python
 - Write our first "Hello World" script
