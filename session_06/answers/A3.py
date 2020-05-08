@@ -1,9 +1,9 @@
-# B4 - Set the apple to be on offer using a Boolean.
+# A3 - Change the price to 0.41.
 apple = {
     "Type": "Bramley",
     "Price": 0.39,
     "Colour": "Green"
 }
 
-apple["Offer"] = True
+apple["Price"] = 0.41
 print(apple)
