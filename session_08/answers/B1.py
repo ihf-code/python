@@ -1,15 +1,14 @@
-# B1 - Write a function called is_odd that will return True if the integer is odd and
-# False if the integer passed as a parameter is even (hint: x % 2 will return true for all odd numbers)
+# B1 - Ask the user to enter their name and append this to a file called 'register.txt'
 
+file1 = open("register.txt", "a")
+name = True
+while name != "":
+    name = input("whats uyour anme? ")
+    if name:
+        file1.write(name + "\n")
 
-def is_odd(number):
-    if number % 2 == 1:
-        print(True)
-    elif number % 2 == 0:
-        print(False)
-    else:
-        print("")
+file1.close()
 
-
-is_odd(6)
-is_odd(5)
+file2 = open("register.txt", "r")
+for name in file2:
+    print(name)

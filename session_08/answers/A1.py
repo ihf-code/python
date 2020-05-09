@@ -1,8 +1,3 @@
-# A1 - Write a function that prints your name
-
-
-def print_name():
-    print("My name")
-
-
-print_name()
+# A1 - Read the file 'jabberwocky.txt' and print its content to the screen
+f = open("jabberwocky.txt", "r")
+print(f.read())

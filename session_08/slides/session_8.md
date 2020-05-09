@@ -162,10 +162,6 @@ for person in contacts:
 
 ---
 
-# [fit]Questions?
-
----
-
 # Functions
 
 ---
@@ -251,6 +247,10 @@ def <function_name>(<param_1>, <param_2>, ...):
 
 ---
 
+# [fit]Questions?
+
+---
+
 # [fit]Coding Time
 ## Section A
 
@@ -333,17 +333,92 @@ def calc_factorial(x):
 
 ---
 
+# Files — Open
+```python
+f = open("my_file.txt", "r")
+```
+
+---
+
+# Files — Read
+
+```python
+f = open("my_file.txt", "r")
+print(f.read())
+```
+
+---
+
+# Files — Read
+
+```python
+f = open("my_file.txt", "r")
+for x in f:
+  print(x)
+```
+---
+
+# [fit]Coding Time
+## Section A
+
+---
+
+# Files — Handling
+
+| Value |  Action | Description |
+|--- | --- | --- |
+| "r" | Read | Opens a file for reading, error if the file does not exist
+| "a" | Append | Opens a file for appending, creates the file if it does not exist
+| "w" | Write | Opens a file for writing, creates the file if it does not exist
+| "x" | Create | Creates the specified file, returns an error if the file exists
+
+---
+
+# Files — Write
+
+```python
+f = open("example.txt", "w")
+f.write("Hello World")
+f.close()
+```
+
+---
+
+# Files — Write
+
+[.code-highlight: 5-7]
+```python
+f = open("example.txt", "w")
+f.write("Hello World")
+f.close()
+
+f = open("example.txt", "a")
+f.write("It's nice to be here")
+f.close()
+```
+
+---
+
+# Files — Write
+
+```python
+f = open("names.txt", "a")
+
+name = True
+while name:
+    name = input("Enter a name: ")
+    f.write(name + "\n")
+
+f.close()
+```
+
+---
+
 # [fit]Coding Time
 ## Section B
 
 ---
 
-# Exercises
+## Any Questions
 
-Finish off any exercises you did not complete in the session
-
----
-
-### Further Help
-
-## [fit]DL-UKIHFCode@kpmg.co.uk
+### go to sli.do #ihfcode

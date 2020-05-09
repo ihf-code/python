@@ -1,10 +1,5 @@
-# A2 - Write a function that accepts a name as a parameter and prints "Hello, "
-
-
-def hello(name):
-    print("Hello, " + name + "!")
-
-
-hello("Alice")
-hello("Bob")
-hello("Charlie")
+# A2 - Read the file 'austen.txt' and print the amount of lines in the file
+total = 0
+for x in open("austen.txt"):
+    total += 1
+print(total)
