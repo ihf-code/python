@@ -4,6 +4,24 @@
 
 ---
 
+# [fit] Course Overview
+
+---
+
+# Course Overview
+- 10 weeks
+- Tuesday — 10–11am - Lesson
+- Thursday — 10–11am - Answers
+
+---
+
+# [fit]Questions?
+
+# https://sli.do
+\#python2020
+
+---
+
 # [fit] What is programming?
 
 ---
@@ -45,6 +63,7 @@ print("Hello, World!")
 ```
 what_the_script_does.py
 ```
+
 ---
 
 # Naming Python Files
@@ -67,23 +86,10 @@ send_emails.py
 
 ---
 
-# Writing Python
-
-- You are not writing an essay...
-
----
-
 # Hello, world!
-Code — hello.py:
 
 ```python
 print("Hello, World!")
-```
-
-To Run:
-
-```
-$ python hello.py
 ```
 
 ---
@@ -117,6 +123,15 @@ has_paid = False
 - Must start with a letter
 - Keep lowercase
 - Use underscore where there are spaces
+
+---
+
+# Writing Python
+
+- You are not writing an essay...
+- Keep things lowercase
+- Don't use punctuation
+- Replace spaces with underscores
 
 ---
 
@@ -326,5 +341,11 @@ correct_sum = (4 + 5) * 2
 
 ---
 
-### Further Help
-### go to sli.do #ihfcode
+### Questions?
+### go to sli.do #python2020
+
+---
+
+# [fit]Next Lesson
+### Thursday 7th May 10am
+### Answers
