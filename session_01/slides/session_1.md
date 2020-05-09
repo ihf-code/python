@@ -15,10 +15,8 @@
 
 ---
 
-# [fit]Questions?
-
-# https://sli.do
-\#python2020
+## Any Questions?
+### sli.do #python2020
 
 ---
 
@@ -346,6 +344,6 @@ correct_sum = (4 + 5) * 2
 
 ---
 
-# [fit]Next Lesson
+# [fit]Next Session
 ### Thursday 7th May 10am
 ### Answers

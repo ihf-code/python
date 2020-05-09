@@ -17,4 +17,3 @@
 4. Write code that prints the value of 144 divided by 12
 5. Write code that prints the value of the remainder of 67 divided by 12
 6. Write code that finds the value of 20 from `4 - 2 * 6 / 3 * 5`. Hint: you might need brackets
-
