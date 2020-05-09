@@ -6,8 +6,8 @@ def multiples_3_and_5(limit):
     sum = 0
     
     for i in range (0, limit+1):
-        # if limit < 0:
-        #     print("The limit must be greater than 0")
+        if limit < 0:
+            print("The limit must be greater than 0")
         if i % 3 == 0:
             sum += i
         elif i % 5 == 0:
