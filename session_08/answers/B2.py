@@ -1,11 +1,7 @@
-# B2 - Write a function that accepts a word and returns it backwards, e.g. 'hello' -> 'olleh'
+# B2 - Create a new file called 'even.txt' that contains only the even numbers from the file 'numbers.txt"
 
-
-def reverse_word(name):
-    name_length = len(name)
-    while name_length != 0:
-        name_length -= 1
-        print(name[name_length])
-
-
-reverse_word("hello")
+f = open("even.txt", "w")
+for x in open("numbers.txt"):
+    x = int(x)
+    if x % 2 == 0:
+        f.write(str(x) + "\n")

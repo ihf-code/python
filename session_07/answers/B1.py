@@ -4,12 +4,9 @@
 
 def is_odd(number):
     if number % 2 == 1:
-        print(True)
-    elif number % 2 == 0:
-        print(False)
+        return True
     else:
-        print("")
-
+        return False
 
 is_odd(6)
 is_odd(5)

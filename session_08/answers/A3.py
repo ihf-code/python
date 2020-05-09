@@ -1,9 +1,5 @@
-# A3 - Loop through the list ["Alice", "Bob", "Charlie"] and call the function you just wrote
-def hello(name):
-    print("Hello, " + name + "!")
-
-
-names_list = ["Alice", "Bob", "Charlie"]
-
-for name in names_list:
-    hello(name)
+# A3 - Each line of the file 'numbers.txt' contains a number, write a script to add up all the values in the file
+total = 0
+for x in open("numbers.txt"):
+    total += int(x)
+print(total)
