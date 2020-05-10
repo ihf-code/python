@@ -1,5 +1,5 @@
 # [fit] IHF: Code
-## [fit]Python — Session 2 — Answers
+## [fit] Python — Session 2 — Answers
 ### Live at 10am
 
 ---
@@ -10,6 +10,6 @@
 
 ---
 
-# [fit]Next Session
+# [fit] Next Session
 ### Tuesday 19th May 10am
 ### Lesson 3

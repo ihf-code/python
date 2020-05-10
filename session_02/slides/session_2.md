@@ -10,7 +10,7 @@
 
 # Text Editor
 
-### http://repl.it
+### https://repl.it
 
 ---
 
@@ -61,10 +61,12 @@ None - Absence of a value
 \t = Tab
 \" = Double Quote
 ```
+
 ```python
 favourite_food = "Pizza from \"Dough N' Sauce\""
 shopping_list = "Apples\nBread\nMilk\nEggs"
 ```
+
 ---
 
 # Numerical Operators
@@ -108,7 +110,6 @@ print("Good morning, " + full_name)
 | | + | Addition |
 | Lowest | - | Subtraction |
 
-
 ---
 
 ## Any Questions?
@@ -132,6 +133,7 @@ has_paid = False # If the user has paid or not
 ```
 
 ---
+
 # Casting
 
 ---
@@ -167,6 +169,54 @@ z = str(10.0)   # z will be '10.0'
 
 ---
 
+# Casting
+
+```python
+age = 21
+
+# ERROR: TypeError: can only concatenate str (not "int") to str
+print("You are: " + age + " years old")
+```
+
+---
+
+# Casting
+
+```python
+age = 21
+
+# Cast the age integer to a string
+print("You are: " + str(age) + " years old")
+```
+
+---
+
+# Casting
+
+```python
+total = 79.99
+
+# Cast the total float to string
+print("Your order total is:" + str(total))
+```
+
+---
+
+# Casting
+
+```python
+number_of_students = 32
+number_of_girls = 19
+percent_girls = int(number_of_girls / number_of_students * 100)
+percent_boys = float(100 - percent_girls)
+
+# Cast the different int/float values to string
+print(str(percent_girls) + "% of the class are girls") # 59%
+print(str(percent_boys) + "% of the class are boys") # 41.0%
+```
+
+---
+
 # Length
 
 ---
@@ -181,14 +231,14 @@ name_length = len(name) # 5
 
 sentence_length = len("Hello, World!") #13
 ```
----
-
-# Index
 
 ---
 
 # Index
 
+---
+
+# Index
 
 | H | e | l | l | o |
 | --- | --- | --- | --- | --- |
@@ -202,11 +252,49 @@ sentence_length = len("Hello, World!") #13
 | --- | --- | --- | --- | --- | --- | --- |
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
 
-
 ```python
 name = "CHARLIE"
 print(name[0]) # Prints 'C'
 print(name[1]) # Prints 'H'
+```
+
+---
+
+# Index
+
+| H | e | l | l | o |
+| --- | --- | --- | --- | --- |
+| 0 | 1 | 2 | 3 | 4 |
+| -5 | -4 | -3 | -2 | -1 |
+
+---
+
+# Index
+
+| A | L | I | C | E |
+| --- | --- | --- | --- | --- |
+| 0 | 1 | 2 | 3 | 4 |
+| -5 | -4 | -3 | -2 | -1 |
+
+```python
+print("ALICE"[4]) # Prints 'E'
+print("ALICE"[-1]) # Prints 'E'
+print("ALICE"[-3]) # Prints 'I'
+```
+
+---
+
+# Index
+
+| D | A | V | E |
+| --- | --- | --- | --- |
+| 0 | 1 | 2 | 3 |
+| -4 | -3 | -2 | -1 |
+
+```python
+name = "Dave"
+print(name[0]) # Always the first element
+print(name[-1]) # Always the last element
 ```
 
 ---
@@ -217,15 +305,33 @@ print(name[1]) # Prints 'H'
 
 # Input
 
-[.code-highlight: 1-2]
-[.code-highlight: 4-6]
 ```python
 name = input("What's your name? ")
-print("Hello " + name)
 
+print("Hello " + name)
+```
+
+---
+
+# Input
+
+```python
 age = int(input("How old are you? "))
 age_in_10_years = age + 10
+
 print("In 10 years you will be " + str(age_in_10_years))
+```
+
+---
+
+# Input
+
+```python
+radius = float(input("What is the radius? "))
+pi = float(input("What is the value of pi? "))
+area = pi * (radius ** 2)
+
+print("The area of the circle is: " + str(area))
 ```
 
 ---
@@ -247,7 +353,29 @@ print("HeLlO".lower()) # hello
 
 ---
 
-# [fit]Coding Time
+# Putting it together
+
+```python
+fname = input("What's your first name? ")
+lname = input("What's your last name? ")
+# Calculate the total length of the users name
+length = len(fname) + len(lname)
+
+# Get the first letters of each part of the name and make uppercase
+print("Your initials are " + fname[0].upper() + lname[0].upper())
+print("Your full name is " + str(length) + " letters long")
+
+# Get the middle letter in the full name as a lowercase string
+# Index requires an integer, so we cast to prevent 5 / 2 = 2.5 — it will equal 2 instead
+fullname = fname + lname
+middle_letter = fullname[int(length / 2)].lower()
+
+print("The middle letter of your name is " + middle_letter)
+```
+
+---
+
+# [fit] Coding Time
 ## Section A
 
 ---
@@ -257,6 +385,6 @@ print("HeLlO".lower()) # hello
 
 ---
 
-# [fit]Next Session
+# [fit] Next Session
 ### Thursday 14th May 10am
 ### Answers
