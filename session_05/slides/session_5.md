@@ -1,5 +1,5 @@
 # [fit] IHF: Code
-## [fit]Python — Session 5 — Lesson
+## [fit] Python — Session 5 — Lesson
 ### Live at 2pm
 ---
 
@@ -210,7 +210,8 @@ for x in range(times_to_ask):
 
 ---
 
-# [fit]Questions?
+## Any Questions?
+### sli.do #python2020
 
 ---
 
@@ -378,6 +379,7 @@ while age < 0 or age > 130:
 
 print("You are: " + str(age))
 ```
+
 ---
 
 # Shorthand Arithmetic
@@ -489,11 +491,11 @@ for x in range(times_to_loop):
 
 ---
 
-# [fit]Coding Time
-## Section A
+### Questions?
+### go to sli.do #python2020
 
 ---
 
-## Any Questions
-
-### go to sli.do #ihfcode
+# [fit] Next Session
+### Thursday xth May 10am
+### Answers

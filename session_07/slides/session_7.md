@@ -183,7 +183,7 @@ def <function_name>(<param_1>, <param_2>, ...):
 
 ---
 
-# [fit]Coding Time
+# [fit] Coding Time
 ## Section A
 
 ---
@@ -265,7 +265,7 @@ def calc_factorial(x):
 
 ---
 
-# [fit]Coding Time
+# [fit] Coding Time
 ## Section B
 
 ---

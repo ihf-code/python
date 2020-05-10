@@ -198,7 +198,7 @@ else:
 
 ---
 
-# [fit]Coding Time
+# [fit] Coding Time
 ## Section A
 
 ---
@@ -273,7 +273,7 @@ if not (age > 12 and age < 20):
 
 ---
 
-# [fit]Coding Time
+# [fit] Coding Time
 ## Section B
 
 

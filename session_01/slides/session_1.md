@@ -175,7 +175,7 @@ shopping_list = "Apples\nBread\nMilk\nEggs"
 
 ---
 
-# [fit]Coding Time
+# [fit] Coding Time
 ## Section A
 
 ---
@@ -334,7 +334,7 @@ correct_sum = (4 + 5) * 2
 
 ---
 
-# [fit]Coding Time
+# [fit] Coding Time
 ## Section B
 
 ---

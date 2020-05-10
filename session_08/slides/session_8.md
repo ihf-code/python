@@ -251,7 +251,7 @@ def <function_name>(<param_1>, <param_2>, ...):
 
 ---
 
-# [fit]Coding Time
+# [fit] Coding Time
 ## Section A
 
 ---
@@ -358,7 +358,7 @@ for x in f:
 ```
 ---
 
-# [fit]Coding Time
+# [fit] Coding Time
 ## Section A
 
 ---
@@ -414,7 +414,7 @@ f.close()
 
 ---
 
-# [fit]Coding Time
+# [fit] Coding Time
 ## Section B
 
 ---

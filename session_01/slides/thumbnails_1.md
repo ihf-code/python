@@ -1,7 +1,7 @@
 # [fit] IHF: Code
-## [fit]Python — Session 1 — Lesson
+## [fit] Python — Session 1 — Lesson
 
 ---
 
 # [fit] IHF: Code
-## [fit]Python — Session 1 — Answers
+## [fit] Python — Session 1 — Answers

@@ -182,7 +182,7 @@ for x in f:
 ```
 ---
 
-# [fit]Coding Time
+# [fit] Coding Time
 ## Section A
 ```
 cd kpmg-python-course/session_5/examples/
@@ -241,7 +241,7 @@ f.close()
 
 ---
 
-# [fit]Coding Time
+# [fit] Coding Time
 ## Section B
 
 ---

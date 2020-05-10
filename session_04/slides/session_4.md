@@ -259,7 +259,7 @@ print(names) # ["Alice", "Bob", "Charlie"]
 
 ---
 
-# [fit]Coding Time
+# [fit] Coding Time
 ## Section A
 
 ---
@@ -330,7 +330,7 @@ range(2000, 2020, 4)
 
 ---
 
-# [fit]Coding Time
+# [fit] Coding Time
 ## Section B
 
 ---
