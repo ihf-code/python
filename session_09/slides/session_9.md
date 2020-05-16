@@ -316,7 +316,8 @@ class Car:
 	wheels = 4
     
     def get_wheels(self):
-		# This wouldn't work as you require self. if pulling the variable from the class
+		# This wouldn't work as you require 'self.' 
+        # if you are pulling the variable from the class
         print(wheels) 
 
 ```
