@@ -1,5 +1,5 @@
 # [fit] IHF: Code
-## Python — Session 5
+## Python — Session 10
 
 ---
 
@@ -7,251 +7,396 @@
 
 ---
 
-# Functions
+# Object Oriented Programming 
+
+---
+# Object Oriented Programming 
+Before OOP, most programs were a list of instructions that acted on memory in the computer. 
+OOP, however, is modeled around objects that interact with each other. 
+Python is an OOP language. 
 
 ---
 
-# Functions — Create
+# Class 
 
-```python
-def hello_world():
-    print("Hello World!")
-```
+---
+# Class 
+A class is the blueprint for an object. 
 
 ---
 
-# Functions — Call
-
-[.code-highlight: 4]
-```python
-def hello_world():
-    print("Hello World!")
-
-hello_world()
-```
-
----
-
-# Functions — Parameters
+# Class 
 
 ```python
-def hello(name):
-    print("Hello, " + name + "!")
-
-hello("Alice")
-hello("Bob")
-hello("Charlie")
-```
-
----
-
-# Functions — Parameters
-
-```python
-def hello(name, age):
-    print("Hello my name is " + name)
-    print("I'm " + str(age) + " years old")
-
-    age_in_10_years = age + 10
-    print("In 10 years time I will be " + str(age_in_10_years))
-
-hello("Alice", 22)
-hello("Bob", 34)
-hello("Charlie", 17)
-```
-
----
-
-# Functions — Parameters
-
-```python
-def area(x, y, z):
-    print("The area is " + str(x * y * z))
-
-area(12, 3, 4)
-area(6, 14, 10)
-```
-
----
-
-# Functions — Parameters
-
-```python
-def <function_name>(<param_1>, <param_2>, ...):
+class Name_of_your_class:
     <your code here>
 ```
 
 ---
 
-# Functions — Returning
+# Class
 
 ```python
-def area(x, y, z):
-    return x * y * z
-
-cube1 = area(12, 3, 4)
-cube2 = area(6, 14, 10)
+class Car:
+	wheels = 4 
 ```
 
 ---
 
-# Functions — Single Job
+# Object 
+
+---
+# Object 
+An object, is an instance of that class.
+It uses the blueprint of class to create its own object. 
+
+---
+
+# To instantiate an object
+Instantiating an object is creating an object from the class. 
 
 ```python
-def hello(name, age):
-    print("Hello my name is " + name)
-    print("I'm " + str(age) + " years old")
-    print("In 10 years time I will be " + str(age_in_x_years(age, 10)))
+class Car:
+	wheels = 4
 
-def age_in_x_years(age, years):
-    return age + years
+volvo = Car()
+```
+---
 
-hello("Alice", 22)
-hello("Bob", 34)
-hello("Charlie", 17)
+# Object 
+
+```python
+class Car:
+	wheels = 4
+
+volvo = Car()
+print(volvo.wheels)
+
+```
+---
+
+# The self parameter  
+
+---
+# The self parameter 
+The self parameter allows you to pass variables from the class when instantiating the object 
+
+---
+# The self parameter 
+
+```python
+class Car:
+	wheels = 4
+    
+    def get_wheels(self):
+		# This wouldn't work as you require 'self.' 
+        # if you are pulling the variable from the class
+        print(wheels) 
+
+```
+---
+# The self parameter 
+
+```python
+class Car:
+	wheels = 4
+    
+    def get_wheels(self):
+        print(self.wheels) 
+
+```
+---
+# The self parameter 
+
+```python
+class Car:
+	wheels = 4
+    
+    def get_wheels(self):
+        print(self.wheels) 
+
+mercedes = Car()
+mercedes.get_wheels()
+
+```
+---
+
+# [fit]The __ init __ function
+
+---
+# The __ init __ function
+
+All classes have a built-in function called __init__()
+This is always the first function executed when the class is being initiated.
+
+---
+# The __init __ function
+
+```python
+class Car:
+  wheels = 4
+
+  def __init__(self, colour, miles):
+    self.colour = colour 
+    self.miles = miles
+
+volvo = Car("red", 30000)
+
+print(volvo.colour)
+print(volvo.miles)
+
+```
+---
+
+# Class variables vs instance variables
+
+---
+
+# Object Methods
+
+---
+# Object Methods
+Methods in objects are functions that belong to the object.
+
+---
+# Object Methods
+```python
+class Car:
+  wheels = 4
+
+  def __init__(self, colour, miles):
+    self.colour = colour 
+    self.miles = miles
+  
+  #This is the object method 
+  def car_information(self):
+    print("This car is " + self.colour + " and has " + str(self.miles) + " miles.")
+
+volvo = Car("red", 30000)
+
+print(volvo.colour)
+print(volvo.miles)
+volvo.car_information()
+
+```
+---
+
+# Modify Object Properties
+
+```python
+volvo = Car("red", 30000)
+
+print(volvo.colour) #red 
+
+volvo.colour = “blue” 
+
+print(volvo.colour) #blue
+
 ```
 
 ---
 
-# Functions — Recursion
+# Delete Object Properties
 
 ```python
-def calc_factorial(x):
-    if x == 1:
-        return 1
-    else:
-        return (x * calc_factorial(x - 1))
+volvo = Car("red", 30000)
 
-num = 4
-print("The factorial of " + num + " is " + str(calc_factorial(num)))
+print(volvo.miles) #30000 
+
+del volvo.miles 
+
+print(volvo.miles) #AttributeError: 'Car' object has no attribute 'miles'
+
 ```
 
 ---
 
-# Functions — Recursion
+# The pass statement
 
+---
+
+# The pass statement
+If have a class definition with no content, put in the pass statement to avoid getting an error.
+
+---
+
+# The pass statement
 ```python
-def calc_factorial(x):
-    if x == 1:
-        return 1
-    else:
-        return (x * calc_factorial(x - 1))
+class Car:
+    pass
 
-# calc_factorial(4)              # 1st call with 4
-# 4 * calc_factorial(3)          # 2nd call with 3
-# 4 * 3 * calc_factorial(2)      # 3rd call with 2
-# 4 * 3 * 2 * calc_factorial(1)  # 4th call with 1
-# 4 * 3 * 2 * 1                  # return from 4th call as number=1
-# 4 * 3 * 2                      # return from 3rd call
-# 4 * 6                          # return from 2nd call
-# 24                             # return from 1st call
 ```
 
-___
+---
 
 # [fit]Questions?
 
 ---
 
-# Files
+# Inheritance
 
 ---
 
-# Files — Open
-```python
-f = open("my_file.txt", "r")
-```
+# Parent Class
 
 ---
 
-# Files — Read
+# Parent Class
 
-```python
-f = open("my_file.txt", "r")
-print(f.read())
-```
+The parent class is the class being inherited from.
+Any class can be a parent class, so the syntax is the same as creating any other class.
 
 ---
 
-# Files — Read
+# Parent Class 
 
 ```python
-f = open("my_file.txt", "r")
-for x in f:
-  print(x)
+class Car:
+  wheels = 4
+
+  def __init__(self, colour, miles):
+    self.colour = colour 
+    self.miles = miles
+  
+  def car_information(self):
+    print("This car is " + self.colour + " and has " + str(self.miles) + " miles.")
+
+volvo.car_information() # This car is red and has 30000 miles.
+
 ```
 ---
 
-# [fit] Coding Time
-## Section A
-```
-cd kpmg-python-course/session_5/examples/
+# Child Class
+
+---
+
+# Child Class
+
+Child class is the class that inherits from another class
+To create a child class, you pass the parent class as a parameter. 
+
+---
+
+# Child Class
+```python
+class Volvo(Car): 
+    pass      
 ```
 
 ---
 
-# Files — Handling
+# Child Class
 
-| Value |  Action | Description |
-|--- | --- | --- |
-| "r" | Read | Opens a file for reading, error if the file does not exist
-| "a" | Append | Opens a file for appending, creates the file if it does not exist
-| "w" | Write | Opens a file for writing, creates the file if it does not exist
-| "x" | Create | Creates the specified file, returns an error if the file exists
+The child class (Volvo) has the same methods and properties as the parent class (Car).
 
 ---
 
-# Files — Write
+# Child Class
 
 ```python
-f = open("example.txt", "w")
-f.write("Hello World")
-f.close()
+class Car:
+  wheels = 4
+
+  def __init__(self, colour, miles):
+    self.colour = colour 
+    self.miles = miles
+  
+  def car_information(self):
+    print("This car is " + self.colour + " and has " + str(self.miles) + " miles.")
+
+class Volvo(Car):
+  pass
+
+volvo_s90 = Volvo("black", 20000)
+volvo_s90.car_information() # This car is black and has 20000 miles.
+
 ```
+---
+
+# The __ init __ function
+
+When you add the __ init __ function to the child class, it no longer inherits the parents. 
 
 ---
 
-# Files — Write
+# The __ init __ function
 
-[.code-highlight: 5-7]
 ```python
-f = open("example.txt", "w")
-f.write("Hello World")
-f.close()
+class Volvo(Car):
+  def __init__(self, colour, miles):
 
-f = open("example.txt", "a")
-f.write("It's nice to be here")
-f.close()
 ```
+---
+# The __ init __ function
+
+To keep the parent's __ init __ function, add a call to the parent's  __ init __ function. 
 
 ---
-
-# Files — Write
+# The __ init __ function
 
 ```python
-f = open("names.txt", "a")
-
-name = True
-while name:
-    name = input("Enter a name: ")
-    f.write(name + "\n")
-
-f.close()
+class Volvo(Car):
+  def __init__(self, colour, miles):
+    Car.__init__(self, colour, miles):
 ```
 
 ---
 
-# [fit] Coding Time
-## Section B
+# The super() function
+
+The super function will make the child class inherit all the methods and properties from its parent.
+
+--- 
+
+# The super() function
+
+```python
+class Volvo(Car):
+  def __init__(self, colour, miles, seats):
+    super().__init__(colour, miles)
+
+```
+---
+
+# Adding properties to the child class
+
+```python
+class Volvo(Car):
+  def __init__(self, colour, miles, seats):
+    super().__init__(colour, miles)
+    #Adding another property to the child class
+    self.seats = seats 
+
+volvo_s90 = Volvo("black", 20000, 5)
+print(volvo_s90.seats)
+
+
+```
+---
+
+# Adding methods to the child class
+
+```python
+class Volvo(Car):
+  def __init__(self, colour, miles, seats):
+    super().__init__(colour, miles)
+    self.seats = seats 
+  
+  #Adding another method to the child class
+  def more_car_info(self):
+    print("This car is " + self.colour + ", has " + str(self.miles) +
+    " miles and " + str(self.seats) + " seats.")
+
+volvo_s90 = Volvo("black", 20000, 5)
+volvo_s90.more_car_info()
+
+
+```
 
 ---
 
-# Exercises
+# Questions
 
-Finish off any exercises you did not complete in the session
+# sli.do #ihfcode
 
 ---
-
-### Further Help
-
-## [fit]DL-UKIHFCode@kpmg.co.uk
