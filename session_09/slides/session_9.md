@@ -453,13 +453,14 @@ If have a class definition with no content, put in the pass statement to avoid g
 ---
 
 # The pass statement
-
+```python
 class Car:
     pass
 
 ```
 
 ---
+
 # Questions
 
 # sli.do #ihfcode
