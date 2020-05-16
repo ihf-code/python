@@ -443,6 +443,23 @@ print(volvo.miles) #AttributeError: 'Car' object has no attribute 'miles'
 
 ---
 
+# The pass statement
+
+---
+
+# The pass statement
+If have a class definition with no content, put in the pass statement to avoid getting an error.
+
+---
+
+# The pass statement
+
+class Car:
+    pass
+
+```
+
+---
 # Questions
 
 # sli.do #ihfcode
