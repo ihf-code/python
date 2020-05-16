@@ -237,7 +237,7 @@ f.close()
 # Object Oriented Programming 
 
 ---
-
+# Object Oriented Programming 
 Before OOP, most programs were a list of instructions that acted on memory in the computer. 
 OOP, however, is modeled around objects that interact with each other. 
 Python is an OOP language. 
@@ -247,7 +247,7 @@ Python is an OOP language.
 # Class 
 
 ---
-
+# Class 
 A class is the blueprint for an object. 
 
 ---
@@ -273,6 +273,7 @@ class Car:
 # Object 
 
 ---
+# Object 
 An object, is an instance of that class.
 It uses the blueprint of class to create its own object. 
 
@@ -304,8 +305,11 @@ print(volvo.wheels)
 # The self parameter  
 
 ---
+# The self parameter 
 The self parameter allows you to pass variables from the class when instantiating the object 
+
 ---
+# The self parameter 
 
 ```python
 class Car:
@@ -317,7 +321,7 @@ class Car:
 
 ```
 ---
-
+# The self parameter 
 
 ```python
 class Car:
@@ -328,6 +332,7 @@ class Car:
 
 ```
 ---
+# The self parameter 
 
 ```python
 class Car:
@@ -345,11 +350,13 @@ mercedes.get_wheels()
 # The __init__ function
 
 ---
+# The __ init __ function
 
 All classes have a built-in function called __init__()
 This is always the first function executed when the class is being initiated.
 
 ---
+# The __ init __ function
 
 ```python
 class Car:
@@ -374,10 +381,11 @@ print(volvo.miles)
 # Object Methods
 
 ---
-
+# Object Methods
 Methods in objects are functions that belong to the object.
 
 ---
+# Object Methods
 ```python
 class Car:
   wheels = 4
