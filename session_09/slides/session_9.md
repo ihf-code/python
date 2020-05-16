@@ -347,7 +347,7 @@ mercedes.get_wheels()
 ```
 ---
 
-# The __init__ function
+# The __ init __ function
 
 ---
 # The __ init __ function
@@ -356,7 +356,7 @@ All classes have a built-in function called __init__()
 This is always the first function executed when the class is being initiated.
 
 ---
-# The __ init __ function
+# The __init __ function
 
 ```python
 class Car:
