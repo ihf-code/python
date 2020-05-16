@@ -1,5 +1,5 @@
 # [fit] IHF: Code
-## Python — Session 5
+## Python — Session 9
 
 ---
 
@@ -147,10 +147,6 @@ def calc_factorial(x):
 # 24                             # return from 1st call
 ```
 
-___
-
-# [fit]Questions?
-
 ---
 
 # Files
@@ -179,13 +175,6 @@ print(f.read())
 f = open("my_file.txt", "r")
 for x in f:
   print(x)
-```
----
-
-# [fit] Coding Time
-## Section A
-```
-cd kpmg-python-course/session_5/examples/
 ```
 
 ---
@@ -241,17 +230,213 @@ f.close()
 
 ---
 
+# [fit]Questions?
+
+---
+
+# Object Oriented Programming 
+
+---
+
+Before OOP, most programs were a list of instructions that acted on memory in the computer. 
+OOP, however, is modeled around objects that interact with each other. 
+Python is an OOP language. 
+
+---
+
+# Class 
+
+---
+
+A class is the blueprint for an object. 
+
+---
+
+# Class 
+
+```python
+class Name_of_your_class:
+    <your code here>
+```
+
+---
+
+# Class
+
+```python
+class Car:
+	wheels = 4 
+```
+
+---
+
+# Object 
+
+---
+An object, is an instance of that class.
+It uses the blueprint of class to create its own object. 
+
+---
+
+# To instantiate an object
+Instantiating an object is creating an object from the class. 
+
+```python
+class Car:
+	wheels = 4
+
+volvo = Car()
+```
+---
+
+# Object 
+
+```python
+class Car:
+	wheels = 4
+
+volvo = Car()
+print(volvo.wheels)
+
+```
+---
+
+# The self parameter  
+
+---
+The self parameter allows you to pass variables from the class when instantiating the object 
+---
+
+```python
+class Car:
+	wheels = 4
+    
+    def get_wheels(self):
+		# This wouldn't work as you require self. if pulling the variable from the class
+        print(wheels) 
+
+```
+---
+
+
+```python
+class Car:
+	wheels = 4
+    
+    def get_wheels(self):
+        print(self.wheels) 
+
+```
+---
+
+```python
+class Car:
+	wheels = 4
+    
+    def get_wheels(self):
+        print(self.wheels) 
+
+mercedes = Car()
+mercedes.get_wheels()
+
+```
+---
+
+# The __init__ function
+
+---
+
+All classes have a built-in function called __init__()
+This is always the first function executed when the class is being initiated.
+
+---
+
+```python
+class Car:
+  wheels = 4
+
+  def __init__(self, colour, miles):
+    self.colour = colour 
+    self.miles = miles
+
+volvo = Car("red", 30000)
+
+print(volvo.colour)
+print(volvo.miles)
+
+```
+---
+
+# Class variables vs instance variables
+
+---
+
+# Object Methods
+
+---
+
+Methods in objects are functions that belong to the object.
+
+---
+```python
+class Car:
+  wheels = 4
+
+  def __init__(self, colour, miles):
+    self.colour = colour 
+    self.miles = miles
+  
+  #This is the object method 
+  def car_information(self):
+    print("This car is " + self.colour + " and has " + str(self.miles) + " miles.")
+
+volvo = Car("red", 30000)
+
+print(volvo.colour)
+print(volvo.miles)
+volvo.car_information()
+
+```
+---
+
+# Modify Object Properties
+
+```python
+volvo = Car("red", 30000)
+
+print(volvo.colour) #red 
+
+volvo.colour = “blue” 
+
+print(volvo.colour) #blue
+
+```
+
+---
+
+# Delete Object Properties
+
+```python
+volvo = Car("red", 30000)
+
+print(volvo.miles) #30000 
+
+del volvo.miles 
+
+print(volvo.miles) #AttributeError: 'Car' object has no attribute 'miles'
+
+```
+
+---
+
 # [fit] Coding Time
-## Section B
+## Section A
 
 ---
 
-# Exercises
+# Questions
 
-Finish off any exercises you did not complete in the session
+# sli.do #ihfcode
 
 ---
 
-### Further Help
-
-## [fit]DL-UKIHFCode@kpmg.co.uk
