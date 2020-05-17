@@ -1,5 +1,6 @@
 # [fit] IHF: Code
 ## [fit] Python — Session 6 — Lesson
+### Live at 10am
 
 ---
 

@@ -7,6 +7,58 @@
 # Review
 
 ---
+# Text Editor
+
+### https://repl.it
+
+---
+
+# Hello World
+
+```python
+print("Hello, World!")
+print("Hello, Saf!")
+print("Hello, Jake!")
+```
+
+---
+
+# Variables
+
+```python
+name = "Charlie"
+age = 27
+left_to_pay = 29.99
+has_paid = False
+```
+
+---
+
+# Numerical Operators
+
+| Operator | Action | Example |
+| --- | --- | --- |
+| + | Addition | `1 + 2` |
+| - | Subtraction | `3 - 1` |
+| * | Multiplication | `3 * 7` |
+| / | Division | `9 / 3` |
+| ** | Exponent | `4 ** 2` |
+| % | Modulus (remainder) | `10 % 3` |
+
+---
+
+# Concatenation
+
+```python
+first_name = "Bob"
+last_name = "Jones"
+full_name = first_name + " " + last_name
+
+print("Hello " + first_name)
+print("Good morning, " + full_name)
+```
+
+---
 
 # Comments
 ```python
@@ -33,12 +85,14 @@ z = str(10.0) # z will be '10.0'
 | C | H | A | R | L | I | E |
 | --- | --- | --- | --- | --- | --- | --- |
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+| -7 | -6 | -5 | -4 | -3 | -2 | -1 |
 
 
 ```python
 name = "CHARLIE"
-print(name[0]) # Prints 'C'
+print(name[0]) # Prints 'C' - first index item
 print(name[1]) # Prints 'H'
+print(name[-1]) # Prints 'E' - last index item
 ```
 
 ---
@@ -99,6 +153,7 @@ if <expression>:
 
 ```python
 name = "Alice"
+
 if name == "Alice":
     print("Hello Alice")
 ```
@@ -109,6 +164,7 @@ if name == "Alice":
 
 ```python
 name = "Alice"
+
 if name == "Alice":
     print("Hello Alice")
     print("How are you?")
@@ -133,17 +189,26 @@ print("Thanks")
 
 # Comparators
 
-[.code-highlight: 1-6]
-[.code-highlight: 8-10]
 ```python
 name = "Alice"
+
 if name == "Alice":
     print("Hello Alice")
 
 if name != "Charlie":
     print("You are not Charlie")
+```
 
-age = 24
+---
+
+# Comparators
+
+```python
+age = 20
+
+if age > 17:
+    print("You can vote")
+
 if age >= 21:
     print("You are 21 or over")
 ```
@@ -172,7 +237,7 @@ if <expression>:
     # Will only be run if the expression is True
     <code>
 else:
-    # Will only be run if the expression is False
+    # Catchall block that will be run if the expression is False
     <code>
 ```
 
@@ -180,16 +245,22 @@ else:
 
 # Else
 
-[.code-highlight: 1-5]
-[.code-highlight: 7-11]
 ```python
 name = "Alice"
+
 if name == "Alice":
     print("Hello Alice")
 else:
-    print("You are not Alice")
+    print("You're not Alice")
+```
 
+---
+
+# Else
+
+```python
 age = 15
+
 if age >= 21:
     print("You are 21 or over")
 else:
@@ -211,6 +282,7 @@ else:
 
 ```python
 name = "Bob"
+
 if name == "Alice":
     print("Hello Alice")
 elif name == "Bob":
@@ -225,6 +297,7 @@ else:
 
 ```python
 age = int(input("How old are you? "))
+
 if age <= 13:
     print("You are 13 or younger")
 elif age < 18:
@@ -241,6 +314,7 @@ else:
 
 ```python
 age = int(input("How old are you? "))
+
 if age <= 13:
     print("You are 13 or younger")
 elif age < 18:
@@ -248,6 +322,24 @@ elif age < 18:
 elif age == 0:
     # This can never be run
     print("You aren't born yet")
+else:
+    print("You are 19 or over")
+```
+
+---
+
+# Elif
+
+```python
+age = int(input("How old are you? "))
+
+if age == 0:
+    # This will now run as expected
+    print("You aren't born yet")
+elif age <= 13:
+    print("You are 13 or younger")
+elif age < 18:
+    print("You are between 14 and 17")
 else:
     print("You are 19 or over")
 ```
@@ -276,7 +368,6 @@ if not (age > 12 and age < 20):
 # [fit] Coding Time
 ## Section B
 
-
 ---
 
 ### Questions?
@@ -284,6 +375,6 @@ if not (age > 12 and age < 20):
 
 ---
 
-# [fit]Next Session
+# [fit] Next Session
 ### Thursday 21st May 10am
 ### Answers
