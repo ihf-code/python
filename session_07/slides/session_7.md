@@ -1,10 +1,95 @@
 # [fit] IHF: Code
-## [fit] Python — Session 6 — Lesson
+## [fit] Python — Session 7 — Lesson
 ### Live at 2pm
 
 ---
 
 # Review
+
+---
+
+# For Loops
+
+```python
+names = ["Alice", "Bob", "Charlie"]
+
+for person in names:
+    print(person)
+
+# Alice
+# Bob
+# Charlie
+```
+
+---
+
+# For Loops
+
+```python
+for letter in "supercalifragilisticexpialidocious":
+    print(letter.upper())
+```
+
+---
+
+# For Loops
+
+```python
+for olympic_years in range(1896, 2020, 4):
+    print(olympic_years)
+
+# ...
+# 2008
+# 2012
+# 2016
+```
+
+---
+
+# For Loops
+
+```python
+times_to_ask = int(input("How many times should I ask? "))
+
+for x in range(times_to_ask):
+    print(input("What is your name? "))
+```
+
+---
+
+# While Loops
+
+```python
+guess = None
+while guess != 4:
+    # Continues to ask for a number until you enter 4
+    guess = int(input("What's your number? "))
+```
+
+---
+
+# While Loops
+
+```python
+times_in_loop = 0
+while times_in_loop <= 10:
+    print("Hello")
+    times_in_loop = times_in_loop + 1
+```
+
+---
+
+# While Vs For Loop
+
+```python
+x = 1
+while x <= 100:
+    print(x)
+    times_in_loop = times_in_loop + 1
+
+for y in range(1, 101):
+    print(y)
+```
 
 ---
 
@@ -14,6 +99,26 @@
 - Tuple
 - Set
 - Dictionary
+
+---
+
+# Collections — List
+
+```python
+names = ["Alice", "Bob", "Charlie"]
+
+names.append("Dave") # ["Alice", "Bob", "Charlie", "Dave"]
+
+names[2] = "Chris" # ["Alice", "Bob", "Chris", "Dave"]
+
+del(names[1])# ["Alice", "Chris", "Dave"]
+
+if "Eve" in names:
+    print("Eve is here")
+
+for name in names:
+    print(name)
+```
 
 ---
 
@@ -95,11 +200,46 @@ for person in contacts:
 
 ---
 
-# [fit]Questions?
+## Any Questions?
+### sli.do #ihfcode
 
 ---
 
 # Functions
+
+---
+
+# Functions
+
+```python
+# Prints to the screen
+print()
+
+# Takes input from the user
+input()
+
+# Casts value to a string
+str()
+
+# Casts value to an integer
+int()
+
+# Gets the length of the string/list etc
+len()
+```
+
+---
+
+# What are functions?
+
+- Re-usable, self-contained blocks of code that do a single task
+
+---
+
+# Why do we use functions?
+
+- Let you re-use code
+- Break large problems into smaller ones
 
 ---
 
@@ -123,12 +263,46 @@ def <function_name>():
 
 # Functions — Call
 
-[.code-highlight: 4]
 ```python
 def hello_world():
     print("Hello World!")
 
 hello_world()
+```
+
+---
+
+# Functions — Call
+
+```python
+print("Program starting...")
+
+# This function is never called, and so never runs
+def hello_world():
+    print("Hello World!")
+
+print("Program ending...")
+```
+
+---
+
+# Don't Repeat Yourself (DRY)
+
+```python
+print("Hello Alice!")
+print("Hello Bob!")
+print("Hello Charlie!")
+```
+
+---
+
+# Don't Repeat Yourself (DRY)
+
+```python
+# We have changed the message 3 times
+print("Good Morning, Alice")
+print("Good Morning, Bob")
+print("Good Morning, Charlie")
 ```
 
 ---
@@ -142,6 +316,34 @@ def hello(name):
 hello("Alice")
 hello("Bob")
 hello("Charlie")
+```
+
+---
+
+# Functions — Parameters
+
+```python
+def hello(name):
+    # Only have to change the message in one location
+    print("Good Morning, " + name)
+
+hello("Alice")
+hello("Bob")
+hello("Charlie")
+```
+
+---
+
+# Keeping it DRY
+
+```python
+def hello(name):
+    print("Good Morning, " + name)
+
+names = ["Alice", "Bob", "Charlie"]
+for name in names:
+    # If we ever want to call a different function we only have to change one line
+    hello(name)
 ```
 
 ---
@@ -230,6 +432,18 @@ hello("Charlie", 17)
 
 ---
 
+# Functions — Single Job
+
+```python
+def is_odd(number):
+    if number % 2:
+        return True
+        
+    return False
+```
+
+---
+
 # Functions — Recursion
 
 ```python
@@ -271,11 +485,11 @@ def calc_factorial(x):
 
 ---
 
-# Exercises
-
-Finish off any exercises you did not complete in the session
+### Questions?
+### go to sli.do #ihfcode
 
 ---
-## Any Questions
 
-### go to sli.do #ihfcode
+# [fit] Next Session
+### Thursday 21st May 2pm
+### Answers
