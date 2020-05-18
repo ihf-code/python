@@ -234,13 +234,18 @@ f.close()
 
 ---
 
-# Object Oriented Programming 
+# What is Object Oriented Programming?
 
 ---
 # Object Oriented Programming 
 Before OOP, most programs were a list of instructions that acted on memory in the computer. 
 OOP, however, is modeled around objects that interact with each other. 
 Python is an OOP language. 
+
+---
+
+# Why do we use Object Oriented Programming?
+Encapsulate the data with the code that manipulates that data.
 
 ---
 
@@ -266,12 +271,21 @@ class Name_of_your_class:
 ```python
 class Car:
 	wheels = 4 
+
+    def drive():
+        #code that makes the car drive
 ```
 
 ---
 
 # Object 
+```python
+class Car:
+	wheels = 4
 
+volvo = Car()
+```
+#Need another example of a class
 ---
 # Object 
 An object, is an instance of that class.
@@ -295,11 +309,12 @@ volvo = Car()
 ```python
 class Car:
 	wheels = 4
-
+    _registration_num = 
 volvo = Car()
 print(volvo.wheels)
 
 ```
+#Need another example of a class/object
 ---
 
 # The self parameter  
@@ -315,7 +330,7 @@ The self parameter allows you to pass variables from the class when instantiatin
 class Car:
 	wheels = 4
     
-    def get_wheels(self):
+    def get_wheels(self.wheels):
 		# This wouldn't work as you require 'self.' 
         # if you are pulling the variable from the class
         print(wheels) 
@@ -354,7 +369,7 @@ mercedes.get_wheels()
 # The __ init __ function
 
 All classes have a built-in function called __init__()
-This is always the first function executed when the class is being initiated.
+This is always the first function executed when the class is being initiated into an object.
 
 ---
 # The __init __ function
@@ -376,6 +391,7 @@ print(volvo.miles)
 ---
 
 # Class variables vs instance variables
+#need some examples here
 
 ---
 
