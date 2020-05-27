@@ -37,10 +37,6 @@ squared = x ** 2
 
 # Concatenation
 
-[.code-highlight: 1-2]
-[.code-highlight: 3]
-[.code-highlight: 1,5]
-[.code-highlight: 1-3,6]
 ```python
 first_name = "Bob"
 last_name = "Jones"
@@ -160,7 +156,8 @@ if not (age > 12 and age < 20):
 
 ---
 
-# [fit]Questions?
+## Any Questions?
+### sli.do #python2020
 
 ---
 
@@ -335,6 +332,11 @@ range(2000, 2020, 4)
 
 ---
 
-## Any Questions
+### Questions?
+### go to sli.do #python2020
 
-### go to sli.do #ihfcode
+---
+
+# [fit] Next Session
+### Thursday 9th June 10am
+### Answers

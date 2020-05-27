@@ -1,5 +1,6 @@
 # [fit] IHF: Code
-## Python — Session 4
+## [fit] Python — Session 8 — Lesson
+### Live at 2pm
 
 ---
 
@@ -44,6 +45,21 @@ print(ceil(9.99)) # 10
 
 ---
 
+# For Loops
+
+```python
+names = ["Alice", "Bob", "Charlie"]
+
+for person in names:
+    print(person)
+
+# Alice
+# Bob
+# Charlie
+```
+
+---
+
 # While Loops
 
 ```python
@@ -75,12 +91,46 @@ while True:
 
 ---
 
+# While Vs For Loop
+
+```python
+x = 1
+while x <= 100:
+    print(x)
+    x += 1
+
+for y in range(1, 101):
+    print(y)
+```
+
+---
+
 # Collections
 
 - List
 - Tuple
 - Set
 - Dictionary
+
+---
+
+# Collections — List
+
+```python
+names = ["Alice", "Bob", "Charlie"]
+
+names.append("Dave") # ["Alice", "Bob", "Charlie", "Dave"]
+
+names[2] = "Chris" # ["Alice", "Bob", "Chris", "Dave"]
+
+del(names[1])# ["Alice", "Chris", "Dave"]
+
+if "Eve" in names:
+    print("Eve is here")
+
+for name in names:
+    print(name)
+```
 
 ---
 
@@ -164,29 +214,6 @@ for person in contacts:
 
 # Functions
 
----
-
-# Functions — Create
-
-```python
-def hello_world():
-    print("Hello World!")
-```
-
----
-
-# Functions — Create
-
-```python
-def <function_name>():
-    <your code here>
-```
-
----
-
-# Functions — Call
-
-[.code-highlight: 4]
 ```python
 def hello_world():
     print("Hello World!")
@@ -205,6 +232,20 @@ def hello(name):
 hello("Alice")
 hello("Bob")
 hello("Charlie")
+```
+
+---
+
+# Keeping it DRY
+
+```python
+def hello(name):
+    print("Good Morning, " + name)
+
+names = ["Alice", "Bob", "Charlie"]
+for name in names:
+    # If we ever want to call a different function we only have to change one line
+    hello(name)
 ```
 
 ---
@@ -238,24 +279,6 @@ area(6, 14, 10)
 
 ---
 
-# Functions — Parameters
-
-```python
-def <function_name>(<param_1>, <param_2>, ...):
-    <your code here>
-```
-
----
-
-# [fit]Questions?
-
----
-
-# [fit] Coding Time
-## Section A
-
----
-
 # Functions — Returning
 
 ```python
@@ -264,50 +287,6 @@ def area(x, y, z):
 
 cube1 = area(12, 3, 4)
 cube2 = area(6, 14, 10)
-```
-
----
-
-# Functions — Returning
-
-```python
-def <function_name>(<param_1>, <param_2>, ...):
-    <your code here>
-
-    return <value>
-```
-
----
-
-# Functions — Single Job
-
-```python
-def hello(name, age):
-    print("Hello my name is " + name)
-    print("I'm " + str(age) + " years old")
-    print("In 10 years time I will be " + str(age_in_x_years(age, 10)))
-
-def age_in_x_years(age, years):
-    return age + years
-
-hello("Alice", 22)
-hello("Bob", 34)
-hello("Charlie", 17)
-```
-
----
-
-# Functions — Recursion
-
-```python
-def calc_factorial(x):
-    if x == 1:
-        return 1
-    else:
-        return (x * calc_factorial(x - 1))
-
-num = 4
-print("The factorial of " + str(num) + " is " + str(calc_factorial(num)))
 ```
 
 ---
@@ -330,6 +309,15 @@ def calc_factorial(x):
 # 4 * 6                          # return from 2nd call
 # 24                             # return from 1st call
 ```
+
+---
+
+## Any Questions?
+### sli.do #ihfcode
+
+---
+
+# Files
 
 ---
 
@@ -386,7 +374,6 @@ f.close()
 
 # Files — Write
 
-[.code-highlight: 5-7]
 ```python
 f = open("example.txt", "w")
 f.write("Hello World")
@@ -414,12 +401,16 @@ f.close()
 
 ---
 
-
 # [fit] Coding Time
 ## Section B
 
 ---
 
-## Any Questions
-
+### Questions?
 ### go to sli.do #ihfcode
+
+---
+
+# [fit] Next Session
+### Thursday 28th May 2pm
+### Answers

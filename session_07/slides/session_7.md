@@ -85,7 +85,7 @@ while times_in_loop <= 10:
 x = 1
 while x <= 100:
     print(x)
-    times_in_loop = times_in_loop + 1
+    x += 1
 
 for y in range(1, 101):
     print(y)
@@ -438,7 +438,7 @@ hello("Charlie", 17)
 def is_odd(number):
     if number % 2:
         return True
-        
+
     return False
 ```
 

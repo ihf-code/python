@@ -7,3 +7,9 @@
 ## Any Questions
 
 ### go to sli.do #python2020
+
+---
+
+# [fit]Next Session
+### Tuesday 9th June 10am
+### Lesson 5
