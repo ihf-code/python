@@ -311,9 +311,6 @@ for my_number in range(5):
 
 # Ranges
 
-[.code-highlight: 1-2]
-[.code-highlight: 4-5]
-[.code-highlight: 7-8]
 ```python
 range(10)
 #[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -338,5 +335,5 @@ range(2000, 2020, 4)
 ---
 
 # [fit] Next Session
-### Thursday 9th June 10am
+### Thursday 4th June 10am
 ### Answers
