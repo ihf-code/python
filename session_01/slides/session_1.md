@@ -344,6 +344,6 @@ correct_sum = (4 + 5) * 2
 
 ---
 
-# [fit]Next Session
+# [fit] Next Session
 ### Thursday 7th May 10am
 ### Answers

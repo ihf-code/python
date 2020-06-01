@@ -5,7 +5,6 @@
 ---
 
 ## Any Questions
-
 ### go to sli.do #python2020
 
 ---

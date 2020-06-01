@@ -5,11 +5,10 @@
 ---
 
 ## Any Questions
-
 ### go to sli.do #python2020
 
 ---
 
-# [fit]Next Session
+# [fit] Next Session
 ### Tuesday 26th May 10am
 ### Lesson 4

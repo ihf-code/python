@@ -1,9 +1,14 @@
 # [fit] IHF: Code
 ## [fit] Python — Session 8 — Answers
-### Live at 2pm
+### Live at 10am
 
 ---
 
 ## Any Questions
+### go to sli.do #python2020
 
-### go to sli.do #ihfcode
+---
+
+# [fit] Next Session
+### Tuesday 26th May 10am
+### Lesson 9
