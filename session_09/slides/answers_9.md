@@ -5,5 +5,10 @@
 ---
 
 ## Any Questions
-
 ### go to sli.do #ihfcode
+
+---
+
+# [fit] Next Session
+### Tuesday 9th June 2pm
+### Lesson 9
