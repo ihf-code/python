@@ -31,12 +31,12 @@
     - the get_word method should accept a string from the user
     - the print_word method prints the string in upper case. 
 
-6. Create a Sandwich class with the attributes order_number and ingredients (which is given as a list). 
- - Only the ingredients will be given as input.
+6. Create a Sandwich class with the attributes order_number and ingredients.
+- i. The ingredients attributes is given as a list - (Note: use list(<atrribute>) to enable this). 
+- Only the ingredients attributes will be given as input.
+- ii. The order attriubte will be a method that counts the order number.
+- iii. Make three methods for the following favourite sandwiches, for customers who don't want to create a sandwich: 
+- vegan_hot - vegan cheese, meatless meatballs, jalapenos
+- meat_feast - steak, peppers, cheese
+- veggie - tomamto, spinach, mushroom, eggs
 
-You should also make it possible to choose a ready-made sandwich rather than typing out the ingredients manually. Also hard-code the following sandwich flavours.
-
-Name	Ingredients
-vegan_hot	vegan cheese, meatless meatballs, jalapenos
-meat_festival	steak, peppers, cheese
-garden_feast	spinach, olives, mushroom, eggs
