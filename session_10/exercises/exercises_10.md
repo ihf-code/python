@@ -1,10 +1,11 @@
 ## Section 10 Exercises
 
 # SECTION A
-1. Create a Person class, initialise it with a name. Create a method that will say hello to the name.
-2. Create a Circle class, initialise it with a radius. The circles constructed must have two getters get_area() and get_perimeter() which give both respective areas and perimeter (circumference).
- - Note: Area of a circle = π r ** 2 
- - Circumference = π × Diameter
+1. Create a Person class, initialise it with a name. Create a method for the Person class that will say hello to the name.
+
+2. Create a Circle class, initialise it with a radius. Create two methods for the Circle class: get_area() and get_circumference() which give both respective areas and circumference.
+- Note: Area of a circle = πr ** 2 
+- Circumference = 2πr
 
 3. Create a Vehicle class, initialise it with, wheels, colour. 
 Create a method for the miles and a method to display all this information.
