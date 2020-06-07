@@ -8,10 +8,10 @@
 - Circumference = 2πr
 - Use the round() function to get the answer to 2 decimal places 
 
-3. Create a Vehicle class, initialise it with, wheels, colour. 
-Create a method for the miles and a method to display all this information.
-    - i. Change the colour of the vehicle.
-    - ii. Delete the wheels.
+3. Create a Vehicle parent class, initialise it with, wheels, colour and a method to display all this information.
+     - i. Create a Tesla (or any car) child classs and add a method to get the miles and a method to display all this information.
+     - ii. Change the colour of the vehicle.
+     - iii. Delete the wheels.
 
 4. Create a Employee class and initialise it with name and staff number. Make methods to:
  - display_info - It should display all the information of the employee.
