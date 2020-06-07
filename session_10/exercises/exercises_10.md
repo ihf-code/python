@@ -27,8 +27,9 @@
      - iii. Delete the wheels.
 
 
-5. Write a class which has two methods get_word and print_word. 
- - get_word accepts a string from the user and print_word prints the string in upper case. 
+5. Create a class called Upper which has two methods called get_word and print_word. 
+    - the get_word method should accept a string from the user
+    - the print_word method prints the string in upper case. 
 
 6. Create a Sandwich class with the attributes order_number and ingredients (which is given as a list). 
  - Only the ingredients will be given as input.
