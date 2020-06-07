@@ -1,33 +1,57 @@
 
-# 3. Create a Vehicle parent class, initialise it with, wheels, colour and a method to display all this information.
-#     - i. Create a Tesla (or any car brand) child classs and add a method to get the miles and a method to display all this information.
-#     - ii. Change the colour of the vehicle.
-#     - iii. Delete the wheels.
+# 3. Create a Employee class and initialise it with name and staff number. 
+#  - i. Make methods to:
+#  - display_info - It should display all the information of the employee.
+#  - set_department - It should assign the department to employee.
+#  - set_bonus - It should assign a bonus amount to the employee.
 
-class Vehicle:
-    def __init__(self, wheels, colour):
-        self.wheels = wheels
-        self.colour = colour 
+class Employee:
+    def __init__(self, name, staff_number):
+        self.name = name
+        self.staff_number = staff_number
     
     def display_info(self):
-        print("This car is " + self.colour + " and has " + str(self.wheels) + " wheels.")
-
-class Tesla(Vehicle):
-    def __init__(self, wheels, colour, miles):
-        super().__init__(wheels, colour)
-        self.miles = miles 
+        print("Employee Information: \n Name: " + self.name + "\n Staff ID: " + str(self.staff_number) + "\n Bonus: " + str(self.bonus) + "\n Department: " + str(self.department))
     
-    def display_more_info(self):
-        print("This car is " + self.colour + " and has " + str(self.wheels) + " wheels and " + str(self.miles) + " miles.")
+    def set_department(self, department):
+        self.department = department
 
-tesla = Tesla(4, "black", 20000)
-tesla.display_more_info()
+    def set_bonus(self, bonus):
+        self.bonus = bonus 
 
-tesla.colour = "red"
-tesla.display_more_info()
+employee1 = Employee("Saf Mirza", 23435)
+employee1.set_bonus(1000)
+employee1.set_department("Technology")
+employee1.display_info()
 
-del tesla.wheels
-tesla.display_more_info()
+#  - ii. Create the instance attributes fullname and email in the Employee class. 
+#  - Given a person's first and last names:
+#  - Form the fullname by simply joining the first and last name together, separated by a space.
+#  - Form the email by joining the first and last name together with a . in between, and follow it with @company.com at the end. Make sure everything is in lowercase.
 
+class Employee:
+    def __init__(self, first_name, last_name, staff_number):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.staff_number = staff_number
+    
+    def display_info(self):
+        print(self.first_name, self.last_name, self.staff_number, self.bonus, self.department)
 
+    def set_department(self, department):
+        self.department = department
 
+    def set_bonus(self, bonus):
+        self.bonus = bonus 
+    
+    def full_name(self):
+        fullname = self.first_name + " " + self.last_name
+        print("Fullname: " + fullname)
+    
+    def email_address(self):
+        email = self.first_name + "." + self.last_name + "@company.com"
+        print("Email: " + email.lower())
+    
+employee1 = Employee("Saf", "Mirza", 23435)
+employee1.full_name()
+employee1.email_address()
