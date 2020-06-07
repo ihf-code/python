@@ -24,10 +24,11 @@ employee1.set_bonus(1000)
 employee1.set_department("Technology")
 employee1.display_info()
 
-#  - ii. Create the instance attributes fullname and email in the Employee class. 
+#  - ii. Create the instance attributes first name and last name instead of name. 
+#  - Create two methods full_name and email_address in the Employee class. 
 #  - Given a person's first and last names:
-#  - Form the fullname by simply joining the first and last name together, separated by a space.
-#  - Form the email by joining the first and last name together with a . in between, and follow it with @company.com at the end. Make sure everything is in lowercase.
+#  - Form the full_name method by simply joining the first and last name together, separated by a space.
+#  - Form the email_address by joining the first and last name together with a . in between, and follow it with @company.com at the end. Make sure everything is in lowercase.
 
 class Employee:
     def __init__(self, first_name, last_name, staff_number):

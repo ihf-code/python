@@ -8,15 +8,24 @@
 - Circumference = 2πr
 - Use the round() function to get the answer to 2 decimal places 
 
-3. Create a Vehicle parent class, initialise it with, wheels, colour and a method to display all this information.
+3. Create a Employee class and initialise it with name and staff number. 
+    - i. Make methods to:
+    - display_info - It should display all the information of the employee.
+    - set_department - It should assign the department to employee.
+    - set_bonus - It should assign a bonus amount to the employee.
+
+    - ii. Create the instance attributes first name and last name instead of name. 
+    - Create two methods full_name and email_address in the Employee class. 
+    - Given a person's first and last names:
+    - Form the full_name method by simply joining the first and last name together, separated by a space.
+    - Form the email_address by joining the first and last name together with a . in between, and follow it with @company.com at the end. Make sure everything is in lowercase.
+
+
+4. Create a Vehicle parent class, initialise it with, wheels, colour and a method to display all this information.
      - i. Create a Tesla (or any car) child classs and add a method to get the miles and a method to display all this information.
      - ii. Change the colour of the vehicle.
      - iii. Delete the wheels.
 
-4. Create a Employee class and initialise it with name and staff number. Make methods to:
- - display_info - It should display all the information of the employee.
- - set_department - It should assign the department to employee.
- - set_bonus - It should assign a bonus amount to the employee.
 
 5. Create the instance attributes fullname and email in the Employee class. Given a person's first and last names:
  - Form the fullname by simply joining the first and last name together, separated by a space.
