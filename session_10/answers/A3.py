@@ -1,4 +1,3 @@
-
 # 3. Create a Employee class and initialise it with name and staff number. 
 #  - i. Make methods to:
 #  - display_info - It should display all the information of the employee.
