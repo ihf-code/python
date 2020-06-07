@@ -27,14 +27,10 @@
      - iii. Delete the wheels.
 
 
-5. Create the instance attributes fullname and email in the Employee class. Given a person's first and last names:
- - Form the fullname by simply joining the first and last name together, separated by a space.
- - Form the email by joining the first and last name together with a . in between, and follow it with @company.com at the end. Make sure everything is in lowercase.
-
-6. Write a class which has two methods get_word and print_word. 
+5. Write a class which has two methods get_word and print_word. 
  - get_word accepts a string from the user and print_word prints the string in upper case. 
 
-7. Create a Sandwich class with the attributes order_number and ingredients (which is given as a list). 
+6. Create a Sandwich class with the attributes order_number and ingredients (which is given as a list). 
  - Only the ingredients will be given as input.
 
 You should also make it possible to choose a ready-made sandwich rather than typing out the ingredients manually. Also hard-code the following sandwich flavours.
