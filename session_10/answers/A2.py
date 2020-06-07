@@ -2,6 +2,7 @@
 #  - Note: Area of a circle = πr ** 2 
 #  - Circumference = 2πr
 
+
 class Circle:
     pi = 3.14159265
     
@@ -9,13 +10,15 @@ class Circle:
         self.radius = radius
 
     def get_area(self):
-        print(self.pi * (self.radius ** 2))
+        print(round(self.pi * (self.radius ** 2), 2))
 
     def get_circumference(self):
-        print(self.pi * (self.radius * 2))
+        print(round(self.pi * (self.radius * 2), 2))
 
-circy = Circle(11)
-circy.get_area()
+circle1 = Circle(9)
+circle1.get_area()
+circle1.get_circumference()
 
-circy = Circle(4.44)
-circy.get_circumference()
+circle2 = Circle(6.87)
+circle2.get_area()
+circle2.get_circumference()
