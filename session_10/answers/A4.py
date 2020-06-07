@@ -1,5 +1,5 @@
 
-# 3. Create a Vehicle parent class, initialise it with, wheels, colour and a method to display all this information.
+# 4. Create a Vehicle parent class, initialise it with, wheels, colour and a method to display all this information.
 #     - i. Create a Tesla (or any car brand) child classs and add a method to get the miles and a method to display all this information.
 #     - ii. Change the colour of the vehicle.
 #     - iii. Delete the wheels.
