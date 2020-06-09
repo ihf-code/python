@@ -128,6 +128,18 @@ for person in names:
 for letter in "supercalifragilisticexpialidocious":
     print(letter.upper())
 ```
+
+---
+
+# While Loops
+
+```python
+guess = None
+while guess != 4:
+    # Continues to ask for a number until you enter 4
+    guess = int(input("What's your number? "))
+```
+
 ---
 
 # While Vs For Loop
@@ -334,6 +346,7 @@ x, y, z = my_func()
 
 ```python
 def count_numbers(*args):
+    # return sum(args)
     total = 0
     for num in args:
         total += num
@@ -604,17 +617,17 @@ mercedes.get_wheels()
 ```
 ---
 
-# [fit]The __ init __ function
+# [fit]The \_\_init\_\_ function
 
 ---
 
-# The __ init __ function
+# The \_\_init\_\_ function
 
-All classes have a built-in function called __init__()
+All classes have a built-in function called \_\_init\_\_()
 This is always the first function executed when the class is being initiated into an object.
 
 ---
-# The __init __ function
+# The \_\_init\_\_ function
 
 ```python
 class Car:
@@ -689,11 +702,6 @@ del volvo.miles
 
 print(volvo.miles) #AttributeError: 'Car' object has no attribute 'miles'
 ```
-
----
-
-# [fit] Coding Time
-## Section A
 
 ---
 
@@ -797,13 +805,13 @@ volvo_s90.car_information() # This car is black and has 20000 miles.
 
 ---
 
-# The __ init __ function
+# The \_\_init\_\_ function
 
-When you add the __ init __ function to the child class, it no longer inherits the parents.
+When you add the \_\_init\_\_ function to the child class, it no longer inherits the parents.
 
 ---
 
-# The __ init __ function
+# The \_\_init\_\_ function
 
 ```python
 class Volvo(Car):
@@ -812,13 +820,13 @@ class Volvo(Car):
 
 ---
 
-# The __ init __ function
+# The \_\_init\_\_ function
 
-To keep the parent's __ init __ function, add a call to the parent's  __ init __ function.
+To keep the parent's \_\_init\_\_ function, add a call to the parent's \_\_init\_\_ function.
 
 ---
 
-# The __ init __ function
+# The \_\_init\_\_ function
 
 ```python
 class Volvo(Car):
@@ -850,8 +858,10 @@ class Volvo(Car):
 class Volvo(Car):
   def __init__(self, colour, miles, seats):
     super().__init__(colour, miles)
+
     #Adding another property to the child class
     self.seats = seats
+
 
 volvo_s90 = Volvo("black", 20000, 5)
 print(volvo_s90.seats)
@@ -872,9 +882,15 @@ class Volvo(Car):
     print("This car is " + self.colour + ", has " + str(self.miles) +
     " miles and " + str(self.seats) + " seats.")
 
+
 volvo_s90 = Volvo("black", 20000, 5)
 volvo_s90.more_car_info()
 ```
+
+---
+
+# [fit] Coding Time
+## Section A
 
 ---
 
