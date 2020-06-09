@@ -7,18 +7,20 @@
 class Vehicle:
     def __init__(self, wheels, colour):
         self.wheels = wheels
-        self.colour = colour 
-    
+        self.colour = colour
+
     def display_info(self):
         print("This car is " + self.colour + " and has " + str(self.wheels) + " wheels.")
+
 
 class Tesla(Vehicle):
     def __init__(self, wheels, colour, miles):
         super().__init__(wheels, colour)
-        self.miles = miles 
-    
+        self.miles = miles
+
     def display_more_info(self):
         print("This car is " + self.colour + " and has " + str(self.wheels) + " wheels and " + str(self.miles) + " miles.")
+
 
 tesla = Tesla(4, "black", 20000)
 tesla.display_more_info()
@@ -28,6 +30,3 @@ tesla.display_more_info()
 
 del tesla.wheels
 tesla.display_more_info()
-
-
-
