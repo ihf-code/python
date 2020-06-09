@@ -159,9 +159,6 @@ for letter in "supeRcaliFragiListiCexPiaLidOcIous".lower():
 
 # Ranges
 
-[.code-highlight: 1-2]
-[.code-highlight: 4-5]
-[.code-highlight: 7-8]
 ```python
 range(10)
 #[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -497,5 +494,5 @@ for x in range(times_to_loop):
 ---
 
 # [fit] Next Session
-### Thursday xth May 10am
+### Thursday 11th June 10am
 ### Answers
