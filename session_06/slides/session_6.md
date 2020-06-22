@@ -197,7 +197,7 @@ while times_in_loop <= 10:
 x = 1
 while x <= 100:
     print(x)
-    times_in_loop = times_in_loop + 1
+    x = x + 1
 
 for y in range(1, 101):
     print(y)
