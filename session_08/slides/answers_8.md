@@ -10,5 +10,5 @@
 ---
 
 # [fit] Next Session
-### Tuesday 26th May 10am
+### Tuesday 7th July 10am
 ### Lesson 9

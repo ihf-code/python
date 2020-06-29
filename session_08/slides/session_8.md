@@ -1,6 +1,6 @@
 # [fit] IHF: Code
 ## [fit] Python — Session 8 — Lesson
-### Live at 2pm
+### Live at 10am
 
 ---
 
@@ -313,7 +313,7 @@ def calc_factorial(x):
 ---
 
 ## Any Questions?
-### sli.do #ihfcode
+### sli.do #python2020
 
 ---
 
@@ -407,10 +407,10 @@ f.close()
 ---
 
 ### Questions?
-### go to sli.do #ihfcode
+### go to sli.do #python2020
 
 ---
 
 # [fit] Next Session
-### Thursday 28th May 2pm
+### Thursday 2nd July 10am
 ### Answers
