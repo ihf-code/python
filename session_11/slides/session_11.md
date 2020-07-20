@@ -1,6 +1,6 @@
 # [fit] IHF: Code
 ## [fit] Python — Making Games
-### Live at 2pm
+### Live at 10am
 
 ---
 
@@ -192,5 +192,5 @@ B                             14
 ---
 
 # [fit] Next Session
-### Tuesday 23rd June 2pm
+### Tuesday 4th August 10am
 ### Making Games Continued

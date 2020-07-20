@@ -14,6 +14,7 @@
 ---
 
 # DoE
+## uk-dlihfcode@kpmg.co.uk
 
 ---
 
@@ -51,5 +52,5 @@
 ---
 
 # [fit] Next Session
-### Tuesday 7th July 2pm
+### Tuesday 4th August 10am
 ### Making Games Continued

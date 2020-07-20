@@ -1,20 +1,6 @@
 # [fit] IHF: Code
 ## [fit] Python — Session 10 — Answers
-### Live at 2pm
-
----
-
-# Questionnaire
-
----
-
-# Send Code to
-## uk-dlihfcode@kpmg.co.uk
-
----
-
-# Quiz
-## www.kahoot.it
+### Live at 10am
 
 ---
 
@@ -28,7 +14,21 @@
 ---
 
 # [fit] Extra Projects / DoE
-### Tuesday 16th June 2pm
+### Tuesday 21st July 10am
+
+---
+
+# Questionnaire
+
+---
+
+# Send Code to
+## uk-dlihfcode@kpmg.co.uk
+
+---
+
+# [fit] Extra Projects / DoE
+### Tuesday 21st July 10am
 
 ---
 

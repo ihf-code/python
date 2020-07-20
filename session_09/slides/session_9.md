@@ -1,6 +1,6 @@
 # [fit] IHF: Code
 ## [fit] Python — Session 9 — Lesson
-### Live at 2pm
+### Live at 10am
 
 ---
 
@@ -164,12 +164,12 @@ hello("Charlie", 17)
 # Functions — Returning
 
 ```python
-def area(x, y, z):
+def volume(x, y, z):
     return x * y * z
 
 
-cube1 = area(12, 3, 4)
-cube2 = area(6, 14, 10)
+cube1 = volume(12, 3, 4)
+cube2 = volume(6, 14, 10)
 ```
 
 ---
@@ -234,7 +234,7 @@ f.close()
 ---
 
 ## Any Questions?
-### sli.do #ihfcode
+### sli.do #python2020
 
 ---
 
@@ -666,7 +666,7 @@ print(latest_stock)
 # Packing / Unpacking
 
 ```python
-def area(x, y, z):
+def volume(x, y, z):
     return x * y * z
 
 data = [
@@ -676,11 +676,11 @@ data = [
 ]
 
 for x in data:
-    print(area(**x))
+    print(volume(**x))
 
-# area(x = 3, y = 12, z = 4)
-# area(x = 6, y = 9, z = 8)
-# area(x = 2, y = 15, z = 10)
+# volume(x = 3, y = 12, z = 4)
+# volume(x = 6, y = 9, z = 8)
+# volume(x = 2, y = 15, z = 10)
 ```
 
 ---
@@ -707,10 +707,10 @@ add_contact(**contact)
 ---
 
 ### Questions?
-### go to sli.do #ihfcode
+### go to sli.do #python2020
 
 ---
 
 # [fit] Next Session
-### Thursday 4th June 2pm
+### Thursday 9th July 10am
 ### Answers

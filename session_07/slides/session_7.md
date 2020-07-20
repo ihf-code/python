@@ -368,11 +368,11 @@ hello("Charlie", 17)
 # Functions — Parameters
 
 ```python
-def area(x, y, z):
-    print("The area is " + str(x * y * z))
+def volume(x, y, z):
+    print("The volume is " + str(x * y * z))
 
-area(12, 3, 4)
-area(6, 14, 10)
+volume(12, 3, 4)
+volume(6, 14, 10)
 ```
 
 ---
@@ -394,11 +394,11 @@ def <function_name>(<param_1>, <param_2>, ...):
 # Functions — Returning
 
 ```python
-def area(x, y, z):
+def volume(x, y, z):
     return x * y * z
 
-cube1 = area(12, 3, 4)
-cube2 = area(6, 14, 10)
+cube1 = volume(12, 3, 4)
+cube2 = volume(6, 14, 10)
 ```
 
 ---
