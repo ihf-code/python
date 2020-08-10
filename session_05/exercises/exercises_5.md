@@ -10,10 +10,16 @@
 7. Print a multiplication table for the number 18 up to 15. E.g.
     1 x 18 = 18
     2 x 18 = 36
-8. Rewrite question B2 from session 4 using a while loop
-    - B2 - Print the numbers 1 to 100 (including the number 100)
+8. Print the numbers 1 to 100 (including the number 100) using a while loop
 9. Rewrite question B8 from session 3 using a while loop
-    - B8 - Create a list of 5 numbers. Write a for loop which appends the square of each number to the new list
+    - A school has following rules for their grading system:
+        a.	Above 80 – A
+        b.	60 to 80 – B
+        c.	50 to 60 – C
+        d.	45 to 50 – D
+        e.	25 to 45 – E
+        f.	Below 25 - F
+    Ask user to enter the lesson and the marks for three lessons and print out the corresponding grades for the lesson.
 10. Ask the user to enter the names of people who entered a prize draw. Select a random winner and print their name
 11. Create a rock, paper, scissors game which is run against computer. This is a game where you select either rock/paper/scissors and you compare it to your opponents choice. Rock beats scissors, paper beats rock, scissors beats paper. If both choose the same, then you play again
     - Expand this so that its best of 3 games

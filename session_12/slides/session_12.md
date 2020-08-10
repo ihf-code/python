@@ -18,6 +18,12 @@
 
 ---
 
+# [fit] Next Session
+### Tuesday 4th August 10am
+### @ihfcode
+
+---
+
 # Make a Game
 
 ---
@@ -53,4 +59,4 @@
 
 # [fit] Next Session
 ### Tuesday 4th August 10am
-### Making Games Continued
+### @ihfcode
