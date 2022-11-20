@@ -4,6 +4,4 @@
 ---
 
 ## Any Questions
-### Drop it in the chat?
 
----

@@ -1,3 +1,5 @@
+# KPMG:Code - Session 1 - Multiple Choice Questions
+
 1. What is programming? 
 - Giving the computer instructions - A
 - Choosing a television show 
@@ -41,13 +43,13 @@
 - 7.9 - A 
 
 8. Which character lets you put in a new line? 
-- "\n" - A
-- "/n"
-- "\t"
-- "\l"
+- \n - A
+- /n
+- \t
+- \l
 
-What will be the output of the below: 
-9. first_name = "Steve"
+9. What will be the output of the below: 
+first_name = "Steve"
 last_name = "Shirley"
 full_name = first_name + " " + last_name
 print("Good morning, " + full_name) 

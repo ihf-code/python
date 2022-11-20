@@ -1,6 +1,5 @@
-# [fit] IHF: Code
+# [fit] KPMG: Code
 ## [fit] Python — Session 2 — Lesson
-### Live at 10am
 
 ---
 
@@ -10,7 +9,7 @@
 
 # Text Editor
 
-### https://repl.it
+### https://replit.com
 
 ---
 
@@ -113,7 +112,6 @@ print("Good morning, " + full_name)
 ---
 
 ## Any Questions?
-### sli.do #python2020
 
 ---
 
@@ -378,13 +376,3 @@ print("The middle letter of your name is " + middle_letter)
 # [fit] Coding Time
 ## Section A
 
----
-
-### Questions?
-### go to sli.do #python2020
-
----
-
-# [fit] Next Session
-### Thursday 14th May 10am
-### Answers
