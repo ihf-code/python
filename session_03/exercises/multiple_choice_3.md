@@ -6,7 +6,7 @@
 - an expression that allows a computer to print an output
 - an expression that makes a string upper case
 
-2. What will be the output of the below?
+2. What will be the output of the below:
 sum = 5 + 6 
 
 if sum == 10:
@@ -17,7 +17,7 @@ if sum == 10:
 - There will be no output - A 
 - 11 
 
-3. What will be the output of the below?
+3. What will be the output of the below:
 name = "Jackie"
 
 if name == "Anita":
