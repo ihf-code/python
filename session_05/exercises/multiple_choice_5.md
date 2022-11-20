@@ -13,14 +13,12 @@
 - contain
 
 3. What does the random.randint() function do? 
-
 - picks a random number from 0 to 1 
 - picks a random number from a range you specify - A 
 - picks a random item from a list
 - picks a random function
 
 4. What does the random.choice() function do? 
-
 - picks a random number from 0 to 1 
 - picks a random number from a range you specify
 - picks a random item from a list - A 
@@ -78,7 +76,7 @@ while number <= ?:
   number += 1
 
 - 3, random
-- 4, randint
+- 4, randint - A
 - 5, choice
 - 4, random
 
