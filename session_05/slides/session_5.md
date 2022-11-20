@@ -1,45 +1,8 @@
-# [fit] IHF: Code
+# [fit] KPMG: Code
 ## [fit] Python — Session 5 — Lesson
-### Live at 10am
 ---
 
 # Review
-
----
-
-# If
-
-```python
-age = int(input("How old are you? "))
-if age >= 18:
-    print("You can vote!")
-```
-
----
-
-# If / Else
-
-```python
-age = int(input("How old are you? "))
-if age >= 18:
-    print("You can vote!")
-else:
-    print("Try voting next time")
-```
-
----
-
-# If / Else / Elif
-
-```python
-name = "Bob"
-if name == "Alice":
-    print("Hello Alice")
-elif name == "Bob":
-    print("Hello Bob")
-else:
-    print("You must be Charlie")
-```
 
 ---
 
@@ -208,7 +171,6 @@ for x in range(times_to_ask):
 ---
 
 ## Any Questions?
-### sli.do #python2020
 
 ---
 
@@ -338,9 +300,9 @@ while times_in_loop <= 10:
 # While Loops
 
 ```python
-x = 1
-while x <= 100:
-    print(x)
+times_in_loop = 1
+while times_in_loop <= 100:
+    print(times_in_loop)
     times_in_loop = times_in_loop + 1
 
 # ...
@@ -489,10 +451,3 @@ for x in range(times_to_loop):
 ---
 
 ### Questions?
-### go to sli.do #python2020
-
----
-
-# [fit] Next Session
-### Thursday 11th June 10am
-### Answers

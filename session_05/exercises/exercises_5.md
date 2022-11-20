@@ -2,7 +2,7 @@
 ## Section A
 1. Print 10 random numbers
 2. Keep asking the user to enter a number until they enter the number 7, then print "Wow lucky number 7!"
-    - Rewrite so that the number being guessed is a random value from 1 to 10
+    - Rewrite so that the number being guessed is a random value from 1 to 10 instead of number 7 
 3. The area of a rectangle is width multiplied by height. Ask the user to enter a width and height in cm, then print the area to the whole square metre. E.g. 240cm x 80cm = 19200cm2 = 2m2
 4. Ask the user for a password, if they enter the password "qwerty123", print "You have successfully logged in". If they get it wrong, print "Password failure" and then ask them to enter it again. Only allow them to enter the password wrong 3 times before printing "System Locked!"
 5. Add up all the numbers from 1 to 500 and print the answer

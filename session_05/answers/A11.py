@@ -2,37 +2,48 @@
 
 import random
 
-print("\nWelcome to Rock, Paper, Scissors.\n You vs the Computer.\n Best of Three Wins\n")
-computer_score = 0
+print("Welcome to Rock, Paper, Scissors")
+
 user_score = 0
-while computer_score < 3 and user_score < 3:
-    computer_choice = random.choice(["rock", "paper", "scissors"])
-    print(computer_choice)
-    print(user_score)
-    user_choice = input("Make your choice - rock, paper or scissors:\n")
-    if user_choice == computer_choice:
-        print("Draw")
-        computer_score += 1
-        user_score += 1
-    elif user_choice == "rock" and computer_choice == "paper":
-        print("You lose")
-        computer_score += 1
-    elif user_choice == "scissors" and computer_choice == "rock":
-        print("You lose")
-        computer_score += 1
-    elif user_choice == "paper" and computer_choice == "scissors":
-        print("You lose")
-        computer_score += 1
-    elif user_choice == "rock" and computer_choice == "scissors":
-        print("You win")
-        user_score += 1
-    elif user_choice == "scissors" and computer_choice == "paper":
-        print("You win")
-        user_score += 1
-    elif user_choice == "paper" and computer_choice == "rock":
-        print("You win")
-        user_score += 1
-    else:
-        print("Please choose rock, paper or scissors")
-        continue
-print("Game Over")
+computer_score = 0
+turns = 0
+
+while turns < 3:
+  user_choice = input("What is your move? (rock, paper, scissors) ")
+  computer_choice = random.choice(["rock", "paper", "scissors"])
+  print("You picked " + user_choice)
+  print("The computer picked " + computer_choice)
+  turns += 1
+  print("This is turn: " + str(turns))
+  if user_choice == "rock":
+      if computer_choice == "scissors":
+          print("You Win")
+          user_score += 1
+      elif computer_choice == "paper":
+          print("You Lose")
+          computer_score += 1
+      else:
+          print("It's a draw")
+  elif user_choice == "paper":
+      if computer_choice == "rock":
+          print("You Win")
+          user_score += 1
+      elif computer_choice == "scissors":
+          print("You Lose")
+          computer_score += 1
+      else:
+          print("It's a draw")
+  else:
+      if computer_choice == "paper":
+          print("You Win")
+          user_score += 1
+      elif computer_choice == "rock":
+          print("You Lose")
+          computer_score += 1
+      else:
+          print("It's a draw")
+
+print("Game Over! Final Score: User Score: " + str(user_score) + "\n Computer Score: " + str(computer_score)) 
+
+  
+  

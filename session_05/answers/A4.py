@@ -21,4 +21,7 @@ while user_guesses < 2:
         print("PASSWORD FAILURE\n")
         user_input = input("What is your password?\n")
         user_guesses += 1
-print("System Failure")
+
+if user_guesses == 2:
+  print("PASSWORD FAILURE\n")
+  print("System Failure - You have entered 3 incorrect passwords.")
