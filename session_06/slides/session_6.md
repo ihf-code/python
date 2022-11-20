@@ -1,131 +1,9 @@
-# [fit] IHF: Code
+# [fit] KPMG: Code
 ## [fit] Python — Session 6 — Lesson
-### Live at 10am
 
 ---
 
 # Review
-
----
-
-# List
-```python
-days = ["Mon", "Tue", "Wed", "Thurs", "Fri", "Sat", "Sun"]
-
-print(days)
-# ["Mon", "Tue", "Wed", "Thurs", "Fri", "Sat", "Sun"]
-
-print(days[1]) # Tue
-```
----
-
-# List
-
-```python
-names = ["Alice", "Bob", "Charlie"]
-
-names.append("Dave") # ["Alice", "Bob", "Charlie", "Dave"]
-
-names[2] = "Chris" # ["Alice", "Bob", "Chris", "Dave"]
-
-del(names[1])# ["Alice", "Chris", "Dave"]
-
-if "Eve" in names:
-    print("Eve is here")
-
-for name in names:
-    print(name)
-```
-
----
-
-# For Loops
-
-```python
-names = ["Alice", "Bob", "Charlie"]
-
-for person in names:
-    print(person)
-
-# Alice
-# Bob
-# Charlie
-```
-
----
-
-# For Loops
-
-```python
-# Create variables to store our numbers and counts
-numbers = [1, 10, 13 , 15, 765, 32, 65, 23, 56, 101]
-even_count = 0
-odd_count = 0
-
-# Loop through all our numbers
-for i in numbers:
-    # Check to see if the number is odd/even
-    if i % 2 == 0:
-        even_count = even_count + 1
-    else:
-        # This is short hand for the line above
-        odd_count += 1
-
-print("Even: " + str(even_count))
-print("Odd: " + str(odd_count))
-```
-
----
-
-# For Loops
-
-```python
-for letter in "supercalifragilisticexpialidocious":
-    print(letter.upper())
-```
-
----
-
-# Ranges
-
-[.code-highlight: 1-2]
-[.code-highlight: 4-5]
-[.code-highlight: 7-8]
-```python
-range(10)
-#[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-
-range(1, 5)
-#[1, 2, 3, 4]
-
-range(2000, 2020, 4)
-#[2000, 2004, 2008, 2012, 2016]
-```
-
----
-
-# For Loops
-
-```python
-for olympic_years in range(1896, 2020, 4):
-    print(olympic_years)
-
-# ...
-# 2008
-# 2012
-# 2016
-```
-
----
-
-# For Loops
-
-```python
-times_to_ask = int(input("How many times should I ask? "))
-
-for x in range(times_to_ask):
-    print(input("What is your name? "))
-```
 
 ---
 
@@ -267,7 +145,6 @@ for x in range(times_to_loop):
 ---
 
 ## Any Questions?
-### sli.do #ihfcode
 
 ---
 
@@ -504,14 +381,3 @@ while fname != "":
 
 # [fit] Coding Time
 ## Section B
-
----
-
-### Questions?
-### go to sli.do #ihfcode
-
----
-
-# [fit] Next Session
-### Thursday 14th May 2pm
-### Answers

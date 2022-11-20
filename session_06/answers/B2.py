@@ -1,4 +1,4 @@
-#Create a menu with 5 items.  
+# A3 - Create a menu with 5 items.  
 # Store this information in a dictionary inside a list. 
 # Each item in the menu should have the name of the item, the price and if its vegetarian friendly (make at least one vege friendly dish). 
 # Print out the entire menu. 
