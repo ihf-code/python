@@ -1,6 +1,5 @@
-# [fit] IHF: Code
+# [fit] KPMG: Code
 ## [fit] Python — Session 3 — Lesson
-### Live at 10am
 
 ---
 
@@ -9,7 +8,7 @@
 ---
 # Text Editor
 
-### https://repl.it
+### https://replit.com
 
 ---
 
@@ -111,7 +110,6 @@ print("In 10 years you will be " + str(age_in_10_years))
 ---
 
 ## Any Questions?
-### sli.do #python2020
 
 ---
 
@@ -368,13 +366,3 @@ if not (age > 12 and age < 20):
 # [fit] Coding Time
 ## Section B
 
----
-
-### Questions?
-### go to sli.do #python2020
-
----
-
-# [fit] Next Session
-### Thursday 21st May 10am
-### Answers
