@@ -1,6 +1,5 @@
-# [fit] IHF: Code
+# [fit] KPMG: Code
 ## [fit] Python — Session 4 — Lesson
-### Live at 10am
 
 ---
 
@@ -158,7 +157,6 @@ if not (age > 12 and age < 20):
 ---
 
 ## Any Questions?
-### sli.do #python2020
 
 ---
 
@@ -327,14 +325,3 @@ range(2000, 2020, 4)
 
 # [fit] Coding Time
 ## Section B
-
----
-
-### Questions?
-### go to sli.do #python2020
-
----
-
-# [fit] Next Session
-### Thursday 4th June 10am
-### Answers

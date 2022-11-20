@@ -12,7 +12,7 @@
 1. Loop through the list you created in section A and print each item out
 2. Print the numbers 1 to 100 (including the number 100)
 3. Print all odd numbers from 1 to 100
-4. The modern olympics started in 1896, print the years they have been held (bonus points to skip 1916, 1940, 1944)
+4. The modern olympics started in 1896, print the years they have been held (bonus points to skip the years it has not been held 1916, 1940, 1944, 2020)
 5. Create a list of ten random numbers. Loop through your list and count the number of even numbers and the number of odd numbers.
 6. Create a list of five names. Write a loop that will print "Hello" plus each name in the list.
 7. Create a loop to go through each letter of the word "supercalifragilisticexpialidocious".
