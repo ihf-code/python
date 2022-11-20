@@ -1,6 +1,5 @@
-# [fit] IHF: Code
+# [fit] KPMG: Code
 ## [fit] Python — Session 1 — Lesson
-### Live at 10am
 
 ---
 
@@ -10,13 +9,12 @@
 
 # Course Overview
 - 10 weeks
-- Tuesday — 10–11am - Lesson
-- Thursday — 10–11am - Answers
+- Wednesday  - Lesson
+- Monday - Questions and Answers
 
 ---
 
 ## Any Questions?
-### sli.do #python2020
 
 ---
 
@@ -52,7 +50,7 @@ print("Hello, World!")
 
 ---
 
-# [fit] repl.it
+# [fit] replit.com
 
 ---
 
@@ -337,13 +335,3 @@ correct_sum = (4 + 5) * 2
 # [fit] Coding Time
 ## Section B
 
----
-
-### Questions?
-### go to sli.do #python2020
-
----
-
-# [fit] Next Session
-### Thursday 7th May 10am
-### Answers

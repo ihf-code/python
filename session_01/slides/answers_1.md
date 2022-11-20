@@ -1,14 +1,9 @@
-# [fit] IHF: Code
+# [fit] KPMG: Code
 ## [fit] Python — Session 1 — Answers
-### Live at 10am
 
 ---
 
 ## Any Questions
-### go to sli.do #python2020
+### Drop it in the chat?
 
 ---
-
-# [fit] Next Session
-### Tuesday 12th May 10am
-### Lesson 2

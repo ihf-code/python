@@ -1,7 +1,7 @@
-# [fit] IHF: Code
+# [fit] KPMG: Code
 ## [fit] Python — Session 1 — Lesson
 
 ---
 
-# [fit] IHF: Code
+# [fit] KPMG: Code
 ## [fit] Python — Session 1 — Answers
