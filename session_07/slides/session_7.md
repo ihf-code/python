@@ -389,6 +389,16 @@ def <function_name>(<param_1>, <param_2>, ...):
 
 ---
 
+# Functions — Print vs Return
+
+- print is a function you call. Use print when you want to show a value to a human.
+
+- return is a keyword. When a return statement is reached, Python will stop the execution of the current function, sending a value out to where the function was called. Use return when you want to send a value from one point in your code to another.
+
+- Using return changes the flow of the program. Using print does not.
+
+---
+
 # Functions — Returning
 
 ```python

@@ -1,102 +1,87 @@
 # KPMG:Code - Session 7 - Multiple Choice Questions
 
-1. What is a dictionary in Python?
+1. What is a function in Python?
 - a way to allow user input
 - a statement that allows a computer to make a decision
-- a way to print an output
-- a collection of data - A 
+- re-usable, self-contained blocks of code that do a single task - A
+- a collection of data
 
-2. What brackets does a dictionary use?
-- {} - A
-- ()
-- [] 
-- <>
+2. What key word defines a function?
+- def - A
+- input
+- print
+- parameter
 
-3. A dictionary is an unordered collection of data.
-- True - A 
-- False 
+3. How would I call the following function:
+def hello_world():
+    print("Hello World!")
 
-4. A tuple can be modified
-- True 
-- False - A 
+- hello_world
+- hello world () 
+- hello_world() - A 
+- hello world
 
-5. What will be the output of the below:
-shirt = {
-    "size": "Large",
-    "colour": "Red"
-}
+4. What does the principle of 'DRY' stand for?
+- do repeat yourself 
+- don't repeat yourself - A
+- do return yourself
+- don't reload yourself
 
-print(shirt["size"])
+5. What is name classed as here:
+def hello(name):
+    print("Hello, " + name + "!")
 
-- size
-- colour
-- Large
-- Red
+- function
+- string
+- parameter - A
+- class
 
 6. What would be the ouput of the below:
-contacts = [
-    {"fname": "Ada", "lname": "Lovelace"},
-    {"fname": "Alan", "lname": "Turing", "phone": "555-1234"},
-    {"fname": "Steve", "lname": "Shirley"}
-]
+def hello(name):
+    print("Good Morning, " + name)
 
-for person in contacts:
-    if "phone" in person:
-        print(person["fname"])
+hello("Grace")
 
-- Ada
-- Alan
-- Steve - A
-- 555-1234
+- Grace
+- Good Morning Grace Hopper
+- Good Morning Grace - A
+- good morning Grace
 
-7. What will stop this while loop:
-contacts = []
-fname = None
+7. What would be the ouput of the below:
+def volume(x, y, z):
+    print("The volume is " + str(x * y * z))
 
-while fname != "":
-    fname = input("What is your first name? ")
-    lname = input("What is your last name? ")
+volume(12, 4, 6)
 
-    if fname and lname:
-        contacts.append({
-            "fname": fname,
-            "lname": lname
-        })
+- 228 
+- 288 - A  
+- 114 
+- 144
 
-- nothing, it will run forever
-- entering a first name  
-- not entering a first name 
-- not entering a first name and last name
+8. What is returning, in relation to functions?
 
-8. Items in a dictionary are called _____ pairs.
+- return is a keyword - A 
+- return is a function
+- return is a input
+- return is a parameter 
 
-- key, value - A 
-- value, key
-- key, arguments
-- value, arguments   
+9. Which of the below will stop the execution a function? 
 
-9. What will be the output of the below: 
-shirt = {
-    "size": "Large",
-    "colour": "Red"
-}
-
-shirt["colour"] = "Green"
-
-- adds a new key/value
-- changes an existing value - A 
-- deletes the key/value pair
-- prints out the dictionary 
+- print
+- return - A 
 
 10. What will be the output of the below: 
-shirt = {
-    "size": "Large",
-    "colour": "Red"
-}
+def calc_factorial(x):
+    if x == 1:
+        return 1
+    else:
+        return (x * calc_factorial(x - 1))
 
-del(shirt["size"]) 
+num = 4
 
-- adds a new key/value
-- changes an existing value
-- deletes the key/value pair - A
-- prints out the dictionary
+print(calc_factorial(num))
+
+- 4
+- None
+- 24 - A
+- 6
