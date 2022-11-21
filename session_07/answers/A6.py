@@ -4,7 +4,6 @@
 # iii. If they are over 16, print 'You're too old for school"
 # vi. If they are 0, print "You're not born yet!"
 
-
 def school_eligibility(age):
     if age < 11:
         print("You're too young to go to this school.")

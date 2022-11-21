@@ -3,8 +3,8 @@
 In this session we cover:
 - What are functions and why we use them
 - Creating your own functions
-- DRY Principle
+- DRY principle
 - Calling functions
 - Parameters
-- Returning values from Functions
+- Returning values from functions
 - Recursion

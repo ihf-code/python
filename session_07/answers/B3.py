@@ -5,7 +5,6 @@
 # **
 # *
 
-
 def print_stars(x):
     star = ""
     for y in range(0, x):
