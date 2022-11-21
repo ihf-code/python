@@ -351,6 +351,30 @@ print("HeLlO".lower()) # hello
 
 ---
 
+# Slicing
+
+---
+
+# Slicing
+
+``` 
+# slicing from one point to another
+"string"[0:6] #string
+"string"[1:4] #tri
+
+# slicing from one point to the end
+"string"[0:] #string
+"string"[1:] #ing
+
+# slicing from the start to another point
+"string"[:0] #
+"string"[:2] #st
+
+# slicing from the start to end, by skipping step
+"string"[0:6:2] #srn
+```
+---
+
 # Putting it together
 
 ```python

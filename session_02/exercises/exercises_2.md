@@ -14,3 +14,4 @@
 11. Print out the above sentence but make the month upper case.
 12. Create a variable that holds your favourite animals and print it out. Make sure the animals are all on different lines and tabbed.
 13. Ask the user to enter their name as well as a number. Print out the uppercase character at that position in the string.
+14. Slice the string with steps of 2, excluding the first and last characters of the string "WelcometoPython"

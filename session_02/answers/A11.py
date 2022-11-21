@@ -1,4 +1,4 @@
-# 11. Print out the sentence from A10 but make the month upper case.
+# A11 - Print out the sentence from A10 but make the month upper case.
 
 # Ask the user for input for the month and the temperatures
 month = input("What month is it?\n")

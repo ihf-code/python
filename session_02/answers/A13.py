@@ -1,4 +1,4 @@
-# 13. Ask the user to enter their name as well as a number. 
+# A13 - Ask the user to enter their name as well as a number. 
 # Print out the uppercase character at that position in the string.
 
 # Ask the user for input
