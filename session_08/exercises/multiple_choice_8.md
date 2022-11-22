@@ -30,7 +30,7 @@ print(f.?())
 - True 
 - False - A 
 
-6. "r" mode will fail if the file its passed to doesn't exist.
+6. "r" mode will fail if the file it's passed to doesn't exist.
 
 - True - A 
 - False 
