@@ -357,14 +357,14 @@ print("HeLlO".lower()) # hello
 
 # Slicing
 
-``` 
+```
 # slicing from one point to another
 "string"[0:6] #string
 "string"[1:4] #tri
 
 # slicing from one point to the end
 "string"[0:] #string
-"string"[1:] #ing
+"string"[3:] #ing
 
 # slicing from the start to another point
 "string"[:0] #
@@ -399,4 +399,3 @@ print("The middle letter of your name is " + middle_letter)
 
 # [fit] Coding Time
 ## Section A
-
