@@ -9,8 +9,8 @@
 
 # Course Overview
 - 10 weeks
-- Wednesday  - Lesson
-- Monday - Questions and Answers
+- Wednesday — Lesson
+- Monday — Questions and Answers
 
 ---
 
@@ -334,4 +334,3 @@ correct_sum = (4 + 5) * 2
 
 # [fit] Coding Time
 ## Section B
-
