@@ -81,17 +81,18 @@ z = str(10.0) # z will be '10.0'
 
 # Index
 
-| C | H | A | R | L | I | E |
-| --- | --- | --- | --- | --- | --- | --- |
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 |
-| -7 | -6 | -5 | -4 | -3 | -2 | -1 |
+
+| A | L | A | N | T | U | R | I | N | G |
+| --- | --- | --- | --- | --- | --- | --- | -- | -- | -- |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+
 
 
 ```python
-name = "CHARLIE"
-print(name[0]) # Prints 'C' - first index item
-print(name[1]) # Prints 'H'
-print(name[-1]) # Prints 'E' - last index item
+fullname = "Alan" + "Turing"
+length = len(fullname) # 10
+# int(length / 2) = 5
+middle_letter = fullname[5].lower()
 ```
 
 ---

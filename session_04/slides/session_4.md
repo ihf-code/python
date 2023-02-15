@@ -116,7 +116,7 @@ if age <= 13:
 elif age < 18:
     print("You are between 14 and 17")
 elif age == 0:
-    # This can never be run
+    # This will never get run
     print("You aren't born yet")
 else:
     print("You are 19 or over")

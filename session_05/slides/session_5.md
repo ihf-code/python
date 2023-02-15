@@ -75,7 +75,7 @@ for person in names:
 
 ```python
 # Create variables to store our numbers and counts
-numbers = [1, 10, 13 , 15, 765, 32, 65, 23, 56, 101]
+numbers = [1, 10, 13, 15, 765, 32, 65, 23, 56, 101]
 even_count = 0
 odd_count = 0
 
@@ -85,8 +85,7 @@ for i in numbers:
     if i % 2 == 0:
         even_count = even_count + 1
     else:
-        # This is short hand for the line above
-        odd_count += 1
+        odd_count = odd_count + 1
 
 print("Even: " + str(even_count))
 print("Odd: " + str(odd_count))
@@ -447,6 +446,11 @@ for x in range(times_to_loop):
     if x >= 4:
         break
 ```
+
+---
+
+# [fit] Coding Time
+## Section A
 
 ---
 
