@@ -3,6 +3,7 @@
 <h3>Unit Testing Framework</h3>
 
 <ol>
+  <li>assertEqual(a, b)</li>
   <li>assertAlmostEqual(a, b)</li>
   <li>assertNotEqual(a, b)</li>
   <li>assertTrue(x)</li>
