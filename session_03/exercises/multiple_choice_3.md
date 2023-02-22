@@ -1,12 +1,14 @@
 # KPMG:Code - Session 3 - Multiple Choice Questions
 
 1. What is a conditional?
+
 - an expression that allows a user to enter an input
 - an expression that allows a computer to make a decision - A
 - an expression that allows a computer to print an output
 - an expression that makes a string upper case
 
 2. What will be the output of the below:
+
 sum = 5 + 6
 
 if sum == 10:
@@ -18,6 +20,7 @@ if sum == 10:
 - 11
 
 3. What will be the output of the below:
+
 name = "Jackie"
 
 if name == "Anita":
@@ -46,6 +49,7 @@ print("Thanks")
 - less than or equal to
 
 6. What is the output of below?
+
 age = 15
 if age >= 21:
     print("You can vote")
@@ -56,20 +60,22 @@ else:
 - You cannot vote - A
 
 7. What is the output of below?
+
 traffic_light = "red"
 
 if traffic_light == "green":
     print("You can go!")
 elif traffic_light == "amber":
-    print("Get ready to stop..")
+    print("Get ready to stop...")
 else:
     print("STOP!")
 
 - Get ready to stop..
-- STOP!
-- You can go! - A
+- STOP! - A
+- You can go!
 
 8. What will be the output of the below:
+
 age = 0
 
 if age <= 13:
@@ -87,14 +93,16 @@ else:
 - You are 19 or over
 
 9. What will be the output of the below:
+
 age = 14
 if age > 12 and age < 20:
     print("You are a teenager")
 
-- You are a teenager
+- You are a teenager - A
 - You are not a teenager
 
 10. What will be the output of the below:
+
 age = 12
 if age < 13 or age > 19:
     print("You are not a teenager")
