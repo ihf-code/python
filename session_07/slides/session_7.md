@@ -236,7 +236,7 @@ len()
 
 # Why do we use functions?
 
-- Let you re-use code
+- Lets you re-use code
 - Break large problems into smaller ones
 
 ---
@@ -490,4 +490,3 @@ def calc_factorial(x):
 
 # [fit] Coding Time
 ## Section B
-
