@@ -1,4 +1,9 @@
 # Session 8 Exercises
+All of these questions will use a set of pre-made files with data in.
+
+To get these files go to: https://replit.com/@ihfcode/pythontwfiles and click on the "fork" button to make a copy of the repl and then you can start to write your code.
+
+
 ## Section A
 1. Read the file 'jabberwocky.txt' and print its content to the screen
 2. Read the file 'austen.txt' and print the amount of lines in the file
